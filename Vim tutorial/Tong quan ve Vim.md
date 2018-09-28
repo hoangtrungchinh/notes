@@ -4,10 +4,10 @@
 ## VIM LÀ GÌ?
 
 
-## TẠI SAO SỬ DỤNG VIM
+## TẠI SAO SỬ DỤNG VIM (3N)
 1. Nhanh: người dùng chỉ cần bàn phím, không cần chuột để thao tác
-2. Tiện: Làm việc trên mọi môi trường, đặc biệt là Server
-3. Rộng: Khả năng rộng mở cao qua các plugin, có khả năng tùy chỉnh theo ý mình
+2. Ngon: Làm việc trên mọi môi trường, đặc biệt là Server
+3. Nhiều: Khả năng rộng mở cao qua các plugin, có khả năng tùy chỉnh theo ý mình
 
 ## CÀI ĐẶT VIM
 Mặc định Vim đã được cài sẵn, trong trường hợp chưa được cài thì chúng ta dùng lệnh
@@ -65,19 +65,22 @@ Vậy nên trước khi bắt đầu vào thực hành, hãy hiểu ý nghĩa ng
 
 ### Danh từ - Noun
 
-| Danh từ | Tiếng Anh        |
-| ------- | ---------------- |
-| w       | Word             |
-| s       | Sentence         |
-| p       | Paragraph        |
-| b       | Blog/parentheses |
-| t       | Tag              |
+| Danh từ | Tiếng Anh | Ý nghĩa |
+| ------- | --------- |--|
+| w       | Word             | Từ |
+| s       | Sentence         | Câu |
+| p       | Paragraph        | Đoạn |
+| b       | Blog/parentheses | Bài |
+| t       | Tag              | Thẻ |
 
 
 ### Trạng từ - Modifier 
 
-| Trạng từ | Tiếng Anh |
-| -------- | --------- |
-| a        | Around    |
-| i        | Inside    |
+| Trạng từ | Tiếng Anh | Ý nghĩa |
+| -------- | --------- |- |
+| a        | Around    | Xung quanh |
+| i        | Inside    | Bên Trong |
 
+Để ý thì ở trên kia chúng ta cũng có i và a, nhưng với tư cách là động từ. Còn ở đây i, a lại có nghĩa khác là trạng từ
+
+OK, vậy là tạm thời đã
