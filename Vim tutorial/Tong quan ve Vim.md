@@ -46,4 +46,18 @@ Các phím tắt để chuyển qua lại giữa các mode xin xem trong hình
 ![vim mode](https://i.imgur.com/hLdZ4JM.png)
 
 ## Ngôn ngữ của Vim
-Có rất nhiều bạn than thở rằng không thể nhớ được các tổ hợp phím của Vim
+Có rất nhiều bạn than thở rằng không thể nhớ được các tổ hợp phím của Vim. Nguyên nhân của điều này nằm ở bạn đang học vẹt một ngôn ngữ (tổ hợp phím trong Vim) mà chả hiểu gì về ý nghĩa (Tiếng anh) của nó cả.
+
+Vậy nên trước khi bắt đầu vào thực hành, hãy hiểu ý nghĩa ngôn ngữ vim nhé
+
+### Động từ - Verb
+Động từ | Tiếng Anh	| Ý nghĩa
+--------|-----------| -------
+y | Yank | Nghĩa tương tự copy
+c | Change/Cut | Thay đổi nội dung và cho phép chèn nội dung mới vào
+d | Delete | Xóa
+p | Paste | Dán
+f | Find | Tìm kiếm và di chuyển con trỏ ký tự được tìm thấy
+t | To | Tìm kiếm và di chuyển con trỏ đến trước ký tự được tìm thấy
+i | Insert | Chèn vào trước vị trí con trỏ hiện tại. Di chuyển đến insert mode
+a | Append | Chèn vào sau vị trí con trỏ hiện tại. Di chuyển đến insert mode
