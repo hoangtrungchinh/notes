@@ -2,12 +2,12 @@
 
 
 ## VIM LÀ GÌ?
-
+Vim là một text editor khá phổ biến, ra đời năm 1991 bởi Bram Moolenaar như một phiên bản mở rộng của Vi (viết bởi Bill Joy). Vim viết tắt của Vi IMproved, cái tên đủ cho thấy Vim có những cái tiến đáng kể so với cha đẻ của mình là Vi. Một trong những cái tiến đáng nói là việc hỗ trợ nhiều hệ điều hành hơn, highlight code tốt hơn, hỗ trợ split màn hình và các plugin
 
 ## TẠI SAO SỬ DỤNG VIM (3N)
-1. Nhanh: người dùng chỉ cần bàn phím, không cần chuột để thao tác
-2. Ngon: Làm việc trên mọi môi trường, đặc biệt là Server
-3. Nhiều: Khả năng rộng mở cao qua các plugin, có khả năng tùy chỉnh theo ý mình
+1. **Nhanh**: người dùng chỉ cần bàn phím, không cần chuột để thao tác
+2. **Ngon**: Làm việc trên mọi môi trường, đặc biệt là Server
+3. **Nhiều**: Khả năng rộng mở cao qua các plugin, có khả năng tùy chỉnh theo ý mình
 
 ## CÀI ĐẶT VIM
 Mặc định Vim đã được cài sẵn, trong trường hợp chưa được cài thì chúng ta dùng lệnh
