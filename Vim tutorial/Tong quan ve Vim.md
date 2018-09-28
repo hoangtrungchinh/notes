@@ -1,4 +1,4 @@
-### TỔNG QUAN VỀ VIM
+### VIM P1 - TỔNG QUAN VỀ VIM
 ![vim](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/544px-Vimlogo.svg.png)
 
 #### VIM LÀ GÌ?
