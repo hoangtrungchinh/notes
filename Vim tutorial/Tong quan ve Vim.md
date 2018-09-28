@@ -51,13 +51,32 @@ Có rất nhiều bạn than thở rằng không thể nhớ được các tổ 
 Vậy nên trước khi bắt đầu vào thực hành, hãy hiểu ý nghĩa ngôn ngữ vim nhé
 
 ### Động từ - Verb
-Động từ | Tiếng Anh	| Ý nghĩa
---------|-----------| -------
-y | Yank | Nghĩa tương tự copy
-c | Change/Cut | Thay đổi nội dung và cho phép chèn nội dung mới vào
-d | Delete | Xóa
-p | Paste | Dán
-f | Find | Tìm kiếm và di chuyển con trỏ ký tự được tìm thấy
-t | To | Tìm kiếm và di chuyển con trỏ đến trước ký tự được tìm thấy
-i | Insert | Chèn vào trước vị trí con trỏ hiện tại. Di chuyển đến insert mode
-a | Append | Chèn vào sau vị trí con trỏ hiện tại. Di chuyển đến insert mode
+| Động từ | Tiếng Anh  | Ý nghĩa                                                           |
+| ------- | ---------- | ----------------------------------------------------------------- |
+| y       | Yank       | Nghĩa tương tự copy                                               |
+| c       | Change/Cut | Thay đổi nội dung và cho phép chèn nội dung mới vào               |
+| d       | Delete     | Xóa                                                               |
+| p       | Paste      | Dán                                                               |
+| f       | Find       | Tìm kiếm và di chuyển con trỏ ký tự được tìm thấy                 |
+| t       | To         | Tìm kiếm và di chuyển con trỏ đến trước ký tự được tìm thấy       |
+| i       | Insert     | Chèn vào trước vị trí con trỏ hiện tại. Di chuyển đến insert mode |
+| a       | Append     | Chèn vào sau vị trí con trỏ hiện tại. Di chuyển đến insert mode   |
+
+
+### Danh từ - Noun
+
+| Danh từ | Tiếng Anh        |
+| ------- | ---------------- |
+| w       | Word             |
+| s       | Sentence         |
+| p       | Paragraph        |
+| b       | Blog/parentheses |
+| t       | Tag              |
+
+
+
+ Trạng từ  Modifier  
+| Trạng từ | Tiếng Anh |
+| -------- | --------- |
+| a        | Around    |
+| i        | Inside    |
