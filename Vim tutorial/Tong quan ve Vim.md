@@ -1,10 +1,27 @@
 # TỔNG QUAN VỀ VIM
 
 
-## Vim là gì?
+## VIM LÀ GÌ?
 
 
-## Tại sao sử dụng Vim
+## TẠI SAO SỬ DỤNG VIM
 1. Nhanh: người dùng chỉ cần bàn phím, không cần chuột để thao tác
 2. Tiện: Làm việc trên mọi môi trường, đặc biệt là Server
-3. Rộng: Khả năng rộng mở cao qua các plugin
+3. Rộng: Khả năng rộng mở cao qua các plugin, có khả năng tùy chỉnh theo ý mình
+
+## CÀI ĐẶT VIM
+Mặc định Vim đã được cài sẵn, trong trường hợp chưa được cài thì chúng ta dùng lệnh
+
+### Với Ubuntu (Unix))
+    sudo apt-get update
+    sudo apt-get install vim
+
+Kiểm tra vim đã được cài đặt thành công hay chưa
+
+    vim -v
+
+### Với Apple OS X
+    brew update 
+    brew install vim && brew instal macvim
+    brew link macvim
+
