@@ -1,5 +1,5 @@
 # TỔNG QUAN VỀ VIM
-
+![vim](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/544px-Vimlogo.svg.png)
 
 ## VIM LÀ GÌ?
 Vim (Vi IMproved) là một text editor phổ biến cho những lập trình viên, nó ra đời năm 1991 bởi Bram Moolenaar như một phiên bản mở rộng của Vi (viết bởi Bill Joy).  Một trong những cái tiến đáng nói là việc hỗ trợ nhiều hệ điều hành hơn, highlight code tốt hơn, hỗ trợ split màn hình và các plugin
@@ -43,7 +43,7 @@ Kiểm tra vim đã được cài đặt thành công hay chưa
 
 Các phím tắt để chuyển qua lại giữa các mode xin xem trong hình
 
-![vim mode](https://i.imgur.com/hLdZ4JM.png)
+![vim mode](https://imgur.com/3vCWdlL.png)
 
 ## Ngôn ngữ của Vim
 Có rất nhiều bạn than thở rằng không thể nhớ được các tổ hợp phím của Vim. Nguyên nhân của điều này nằm ở bạn đang học vẹt một ngôn ngữ (tổ hợp phím trong Vim) mà chả hiểu gì về ý nghĩa (Tiếng anh) của nó cả.
