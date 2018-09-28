@@ -51,7 +51,7 @@ Có rất nhiều bạn than thở rằng không thể nhớ được các tổ 
 Vậy nên trước khi bắt đầu vào thực hành, hãy hiểu ý nghĩa ngôn ngữ vim nhé
 
 ### Động từ - Verb
-| Động từ | Tiếng Anh  | Ý nghĩa                                                           |
+| ĐỘNG TỪ | TIẾNG ANH  | Ý NGHĨA                                                           |
 | ------- | ---------- | ----------------------------------------------------------------- |
 | y       | Yank       | Nghĩa tương tự copy                                               |
 | c       | Change/Cut | Thay đổi nội dung và cho phép chèn nội dung mới vào               |
@@ -65,22 +65,26 @@ Vậy nên trước khi bắt đầu vào thực hành, hãy hiểu ý nghĩa ng
 
 ### Danh từ - Noun
 
-| Danh từ | Tiếng Anh | Ý nghĩa |
-| ------- | --------- |--|
-| w       | Word             | Từ |
-| s       | Sentence         | Câu |
-| p       | Paragraph        | Đoạn |
-| b       | Blog/parentheses | Bài |
-| t       | Tag              | Thẻ |
+| DANH TỪ | TIẾNG ANH        | Ý NGHĨA |
+| ------- | ---------------- | ------- |
+| w       | Word             | Từ      |
+| s       | Sentence         | Câu     |
+| p       | Paragraph        | Đoạn    |
+| b       | Blog/parentheses | Bài     |
+| t       | Tag              | Thẻ     |
 
 
 ### Trạng từ - Modifier 
 
-| Trạng từ | Tiếng Anh | Ý nghĩa |
-| -------- | --------- |- |
+| TRẠNG TỪ | TIẾNG ANH | Ý NGHĨA    |
+| -------- | --------- | ---------- |
 | a        | Around    | Xung quanh |
-| i        | Inside    | Bên Trong |
+| i        | Inside    | Bên Trong  |
 
 Để ý thì ở trên kia chúng ta cũng có i và a, nhưng với tư cách là động từ. Còn ở đây i, a lại có nghĩa khác là trạng từ
 
-OK, vậy là tạm thời đã
+OK, vậy là tạm thời đã xong phần mở đầu, phần tiếp theo sẽ hướng dẫn các bạn làm thế nào để ghép các loại từ trên thành 1 câu (lệnh) trong ngôn ngữ vim nhé
+
+## Tài liệu tham khảo
+[Learn to speak vim — verbs, nouns, and modifiers!](http://yanpritzker.com/2011/12/16/learn-to-speak-vim-verbs-nouns-and-modifiers/)
+
