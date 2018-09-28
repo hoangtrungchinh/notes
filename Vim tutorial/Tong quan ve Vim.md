@@ -25,3 +25,9 @@ Kiểm tra vim đã được cài đặt thành công hay chưa
     brew install vim && brew instal macvim
     brew link macvim
 
+### Trên window
+
+1. Chọn package neovim [nvim-win32.zip](nvim-win32)  hoặc [nvim-win64.zip](https://github.com/neovim/neovim/releases/download/v0.2.2/nvim-win64.zip)
+2. Giản nén unzip ở bất cứ đâu
+3. Mở thư mục và double-click vào nvim-qt.exe
+
