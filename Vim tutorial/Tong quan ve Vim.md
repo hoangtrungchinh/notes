@@ -31,3 +31,7 @@ Kiểm tra vim đã được cài đặt thành công hay chưa
 2. Giản nén unzip ở bất cứ đâu
 3. Mở thư mục và double-click vào nvim-qt.exe
 
+## Các mode trên Vim
+
+![vim mode](https://i.imgur.com/hLdZ4JM.png)
+
