@@ -35,3 +35,12 @@ Kiểm tra vim đã được cài đặt thành công hay chưa
 
 ![vim mode](https://i.imgur.com/hLdZ4JM.png)
 
+1. **Normal Mode**: - Được sử dụng để chỉnh sửa, sao chép, dán, di chuyển, xóa và thay đổi văn bản được thực hiện từ trong chế độ này.
+
+2. **Insert Mode**: - Được sử dụng để update hay thay đổi data,text...
+
+3. **Command mode**: - Chế độ này được sử dụng để lưu tài liệu, thoát khỏi chương trình, thực hiện tìm kiếm....
+
+4. **Visual Mode (bôi đen)**: - Được sử dụng để lựa chọn hình ảnh
+
+
