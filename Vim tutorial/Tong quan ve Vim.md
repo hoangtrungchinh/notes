@@ -45,3 +45,5 @@ Các phím tắt để chuyển qua lại giữa các mode xin xem trong hình
 
 ![vim mode](https://i.imgur.com/hLdZ4JM.png)
 
+## Ngôn ngữ của Vim
+Có rất nhiều bạn than thở rằng không thể nhớ được các tổ hợp phím của Vim
