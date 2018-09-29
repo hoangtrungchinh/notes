@@ -26,15 +26,16 @@ Lưu ý: Trên Vim ta cũng có thể sử dụng các phím mũi tên để đi
 
 #### Thao tác phục hồi
 Sử đụng một trong hai phím
-* u
-* *Ctrl + R
+* **u**
+* **Ctrl + R**
 
 #### Lưu và thoát
 để lưu file trong chế độ normal
-* :w
-* :w filename
+* **:w**
+* **:w filename**
 
 Để thoát file ta dùng:
-* :q
-* :q! dùng để thoát mà không lưu thay 
-* :qa để thoát tất cả các file đang mở.
+* **:q**
+* **:q!** dùng để thoát mà không lưu
+* **:qa** dùng để thoát tất cả các file đang mở
+* **:wq** hoặc **:x**  dùng để vừa lưu vừa thoát
