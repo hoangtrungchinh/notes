@@ -23,3 +23,18 @@ Lưu ý: Trên Vim ta cũng có thể sử dụng các phím mũi tên để đi
 * **A**: con trỏ sẽ ở cuối dòng hiện tại
 * **o**: VIM sẽ thêm một dòng bên dưới dòng hiện tại và đặt con trỏ tại dòng này
 * **O**: tương tự o nhưng thay vì thêm 1 dòng bên dưới thì sẽ thêm 1 dòng bên trên dòng hiện tại
+
+#### Thao tác phục hồi
+Sử đụng một trong hai phím
+* u
+* *Ctrl + R
+
+#### Lưu và thoát
+để lưu file trong chế độ normal
+* :w
+* :w filename
+
+Để thoát file ta dùng:
+* :q
+* :q! dùng để thoát mà không lưu thay 
+* :qa để thoát tất cả các file đang mở.
