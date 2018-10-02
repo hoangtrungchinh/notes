@@ -38,19 +38,6 @@ Sử đụng một trong hai phím
 * **:q**
 * **:q!** dùng để thoát mà không lưu
 * **:qa** dùng để thoát tất cả các file đang mở
-* **:wq** hoặc **:x**  dùng để vừa lưu vừa th
+* **:wq** hoặc **:x**  dùng để vừa lưu vừa thoát
 
-
-
-
-
-*This text will be italic*
-
-_This will also be italic_
-
-**This text will be bold**
-
-__This will also be bold__
-
-*You **can** combine them*
 
