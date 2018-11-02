@@ -25,8 +25,8 @@ Lưu ý: Trên Vim ta cũng có thể sử dụng các phím mũi tên để đi
 * **I**: con trỏ sẽ ở đầu dòng hiện tại
 * **a**: con trỏ sẽ ở ngay sau vị trí hiện tại 1 kí tự
 * **A**: con trỏ sẽ ở cuối dòng hiện tại
-* **o**: VIM sẽ thêm một dòng bên dưới dòng hiện tại và đặt con trỏ tại dòng này
-* **O**: tương tự o nhưng thay vì thêm 1 dòng bên dưới thì sẽ thêm 1 dòng bên trên dòng hiện tại
+* **o**: thêm một dòng bên dưới dòng hiện tại và đặt con trỏ tại dòng này
+* **O**: thêm một dòng bên trên dòng hiện tại và đặt con trỏ tại dòng này
 
 #### Thao tác phục hồi
 Sử đụng một trong hai phím
