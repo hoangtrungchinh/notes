@@ -19,12 +19,12 @@ Ký tự "." có chức năng lặp lại lệnh gần nhất sử dụng
 #### VD2: Làm quen với lệnh tìm kiếm
 Đây là ví dụ đơn giản cho việc tìm kiếm và thay thế
 
-| 1         | 2                                                            |                                                                           |
-| --------- | ------------------------------------------------------------ | ------------------------------------------------------------------------- |
-| {start}   | **v**ar foo = "method("+argument1+","+argument2+")";         | Trạng thái đầu tiên khi vwuaf mở Vim                                      |
-| f+        | var foo = "method("**+** argument1+","+argument2+")";         | Tìm và di chuyển con trỏ đến vị trị cần tìm (dấu +)                       |
-| s␣+␣<Esc> | var foo = "method(" +**␣**argument1+","+argument2+")";       | Xóa ký tự vị trí hiện tại <br>Thêm vào ␣+␣ <br> Về lại chế độ normal node |
-| ;         | var foo = "method(" + argument1 **+**","+argument2+")";      | Lặp lại các thao tác search cuối cùng f+                                  |
-| .         | var foo = "method(" + argument1 +**␣**","+argument2+")";     | Lặp lại các thao tác s␣+␣<Esc>                                            |
-| ;.        | var foo = "method(" + argument1 + "," +**␣**argument2+")";   | Lặp lại các thao tác f+s␣+␣<Esc>                                          |
-| ;.        | var foo = "method(" + argument1 + "," + argument2 +**␣**")"; | Lặp lại các thao tác f+s␣+␣<Esc>                                          |
+| 1         | 2                                                  |                                                                           |
+| --------- | -------------------------------------------------- | ------------------------------------------------------------------------- |
+| {start}   | **"**method("+argument1+","+argument2+")";         | Trạng thái đầu tiên khi vừa mở Vim                                        |
+| f+        | "method("**+** argument1+","+argument2+")";        | Tìm và di chuyển con trỏ đến vị trị cần tìm (dấu +)                       |
+| s␣+␣<Esc> | "method(" +**␣**argument1+","+argument2+")";       | Xóa ký tự vị trí hiện tại <br>Thêm vào ␣+␣ <br> Về lại chế độ normal node |
+| ;         | "method(" + argument1 **+**","+argument2+")";      | Lặp lại các thao tác search cuối cùng f+                                  |
+| .         | "method(" + argument1 +**␣**","+argument2+")";     | Lặp lại các thao tác s␣+␣<Esc>                                            |
+| ;.        | "method(" + argument1 + "," +**␣**argument2+")";   | Lặp lại các thao tác f+s␣+␣<Esc>                                          |
+| ;.        | "method(" + argument1 + "," + argument2 +**␣**")"; | Lặp lại các thao tác f+s␣+␣<Esc>                                          |
