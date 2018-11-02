@@ -28,6 +28,9 @@ Lưu ý: Trên Vim ta cũng có thể sử dụng các phím mũi tên để đi
 * **o**: thêm một dòng bên dưới dòng hiện tại và đặt con trỏ tại dòng này
 * **O**: thêm một dòng bên trên dòng hiện tại và đặt con trỏ tại dòng này
 
+#### Thao tác nhân đôi
+* yyp: Nhân đôi dòng hiện tại và chuyển con trỏ xuống dòng phía dưới
+
 #### Thao tác phục hồi
 Sử đụng một trong hai phím
 * **u**
