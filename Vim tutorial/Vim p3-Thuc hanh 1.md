@@ -16,15 +16,15 @@ Ký tự "." có chức năng lặp lại lệnh gần nhất sử dụng
 
 
 
-#### VD2: l�m quen v?i normal mode, visual mode
+#### VD2: Làm quen với normal mode, visual mode
 
 
 | 1         | 2                                                        |     |
 | --------- | -------------------------------------------------------- | --- |
-| {start}   | var foo = "method("+argument1+","+argument2+")";         |     |
-| f+        | var foo = "method("+argument1+","+argument2+")";         |     |
-| s?+?<Esc> | var foo = "method(" + argument1+","+argument2+")";       |     |
-| ;         | var foo = "method(" + argument1+","+argument2+")";       |     |
-| .         | var foo = "method(" + argument1 + ","+argument2+")";     |     |
-| ;.        | var foo = "method(" + argument1 + "," + argument2+")";   |     |
-| ;.        | var foo = "method(" + argument1 + "," + argument2 + ")"; |     |
+| {start}   | **v**ar foo = "method("+argument1+","+argument2+")";         |     |
+| f+        | var foo = "method("**+**argument1+","+argument2+")";         |     |
+| s␣+␣<Esc> | var foo = "method(" +**␣**argument1+","+argument2+")";       |     |
+| ;         | var foo = "method(" + argument1**+**","+argument2+")";       |     |
+| .         | var foo = "method(" + argument1 +**␣**","+argument2+")";     |     |
+| ;.        | var foo = "method(" + argument1 + "," +**␣**argument2+")";   |     |
+| ;.        | var foo = "method(" + argument1 + "," + argument2 +**␣**")"; |     |
