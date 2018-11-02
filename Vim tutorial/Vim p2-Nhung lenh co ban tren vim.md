@@ -32,7 +32,12 @@ Lưu ý: Trên Vim ta cũng có thể sử dụng các phím mũi tên để đi
 * **yyp**: Nhân đôi dòng hiện tại và chuyển con trỏ xuống dòng phía dưới
 
 #### Thao tác thay đổi dạng chữ
-* yyp: Nhân đôi dòng hiện tại và chuyển con trỏ xuống dòng phía dưới
+* **gUU**: Chuyển tất cả chữ trong dòng sang chữ hoa
+* **guu**: Chuyển tất cả chữ trong dòng sang chữ thường
+
+#### Thao tác thay đổi lề dòng
+* **>**: Thụt vào đầu dòng (tab)
+* **<**: Thụt ra đầu dòng (shift tab)
 
 #### Thao tác phục hồi
 Sử đụng một trong hai phím
