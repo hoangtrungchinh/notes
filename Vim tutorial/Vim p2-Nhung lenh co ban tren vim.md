@@ -11,10 +11,10 @@ Lưu ý: Trên Vim ta cũng có thể sử dụng các phím mũi tên để đi
 
 #### Thao tác Xóa
 * **x**: xóa một kí tự tại vị trí con trỏ hiện tại
-* **dw**: xóa một từ tính từ vị trí con trỏ hiện tại đến vị trí bắt đầu của từ tiếp theo (không bao gồm kí tự đầu tiên của từ tiếp theo và xóa cả các dấu cách)
-* **daw**: xóa một từ tính từ vị trí con trỏ hiện tại đến vị trí bắt đầu của từ tiếp theo (không bao gồm kí tự đầu tiên của từ tiếp theo và xóa cả các dấu cách)
+* **dw**: *delete word* - xóa một từ tính từ vị trí con trỏ hiện tại đến vị trí bắt đầu của từ tiếp theo (không bao gồm kí tự đầu tiên của từ tiếp theo và xóa cả các dấu cách)
+* **daw**: *delete a word* - Xóa toàn bộ từ đang chứa con trỏ
 * **db**: xóa từ vị trí con trỏ hiện tại đến đầu từ trước đó
-* **d** hoặc **dd**: xóa dòng hiện tại
+* **dd**: xóa dòng hiện tại
 * **d$**: xóa từ vị trí con trỏ đến hết dòng hiện tại
 * **d{num}**: xóa số dòng bằng giá trị {num} tính từ dòng hiện tại (VD: xóa 10 dòng thì dùng d10)
 
