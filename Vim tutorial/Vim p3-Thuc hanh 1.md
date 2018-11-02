@@ -1,6 +1,6 @@
-### VIM P2 - THUC HANH
+### VIM P3 - THỰC HÀNH 1
 
-#### VD1: Làm quen ký tự . và chế độ normal node, insert mode
+#### VD1: Làm quen ký tự .
 Ký tự "." có chức năng lặp lại lệnh gần nhất sử dụng
 
 | 1          | 2                                                       |                                                                                           |
@@ -16,15 +16,15 @@ Ký tự "." có chức năng lặp lại lệnh gần nhất sử dụng
 
 
 
-#### VD2: Làm quen với normal mode, visual mode
-
+#### VD2: Làm quen với lệnh tìm kiếm
+Đây là ví dụ đơn giản cho việc tìm kiếm và thay thế
 
 | 1         | 2                                                            |                                                                           |
 | --------- | ------------------------------------------------------------ | ------------------------------------------------------------------------- |
 | {start}   | **v**ar foo = "method("+argument1+","+argument2+")";         | Trạng thái đầu tiên khi vwuaf mở Vim                                      |
 | f+        | var foo = "method("**+**argument1+","+argument2+")";         | Tìm và di chuyển con trỏ đến vị trị cần tìm (dấu +)                       |
 | s␣+␣<Esc> | var foo = "method(" +**␣**argument1+","+argument2+")";       | Xóa ký tự vị trí hiện tại <br>Thêm vào ␣+␣ <br> Về lại chế độ normal node |
-| ;         | var foo = "method(" + argument1**+**","+argument2+")";       | Lặp lại các thao tác f+                                                   |
+| ;         | var foo = "method(" + argument1 **+**","+argument2+")";      | Lặp lại các thao tác search cuối cùng f+                                  |
 | .         | var foo = "method(" + argument1 +**␣**","+argument2+")";     | Lặp lại các thao tác s␣+␣<Esc>                                            |
 | ;.        | var foo = "method(" + argument1 + "," +**␣**argument2+")";   | Lặp lại các thao tác f+s␣+␣<Esc>                                          |
 | ;.        | var foo = "method(" + argument1 + "," + argument2 +**␣**")"; | Lặp lại các thao tác f+s␣+␣<Esc>                                          |
