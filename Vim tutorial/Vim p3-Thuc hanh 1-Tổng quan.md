@@ -1,4 +1,4 @@
-### VIM P3 - THỰC HÀNH 1
+### VIM P3 - THỰC HÀNH 1 - TỔNG QUAN
 
 #### VD1: Làm quen ký tự .
 Ký tự "." có chức năng lặp lại lệnh gần nhất sử dụng
