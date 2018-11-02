@@ -30,7 +30,7 @@ Sử đụng một trong hai phím
 * **Ctrl + R**
 
 #### Lưu và thoát
-để lưu file trong chế độ normal
+Để lưu file trong chế độ normal
 * **:w**
 * **:w filename**
 
