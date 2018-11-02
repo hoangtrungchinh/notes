@@ -36,8 +36,8 @@ Lưu ý: Trên Vim ta cũng có thể sử dụng các phím mũi tên để đi
 * **guu**: Chuyển tất cả chữ trong dòng sang chữ thường
 
 #### Thao tác thay đổi lề dòng
-* **>**: Thụt vào đầu dòng (tab)
-* **<**: Thụt ra đầu dòng (shift tab)
+* **>**: Dòng thụt về phía bên phải (tab)
+* **<**: Dòng thụt về phía bên trái (shift tab)
 
 #### Thao tác phục hồi
 Sử đụng một trong hai phím
