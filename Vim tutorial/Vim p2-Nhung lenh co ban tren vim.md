@@ -45,8 +45,8 @@ Sử đụng một trong hai phím
 * **Ctrl + R**
 
 #### Mở  1 file
-* vi filename sử dụng trong terminal
-* 
+* **vi filename** sử dụng trong terminal
+* **:e filename** sử dụng trong normal mode
 
 #### Lưu và thoát
 Để lưu file trong chế độ normal
