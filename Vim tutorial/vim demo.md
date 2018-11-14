@@ -17,6 +17,9 @@ Tạo file demo.txt có nội dung sau:
 * Tại bước 4: có thể dùng tổ hợp phím ctrl+c
   
 #### Làm quen với các phím di chuyển
+
+To Sherlock Holmes she is always THE woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br>
+
 Sử dụng các phím h,j,k,l để di chuyển trong game sau
 * Truy cập https://vim-adventures.com/
 * Đặt tay theo vị trí sau và chơi game
