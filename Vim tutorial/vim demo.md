@@ -1,6 +1,7 @@
 ### VIM P3 - THỰC HÀNH 1 - TỔNG QUAN
 
-#### VD1: Tạo file demo.txt có nội dung sau:
+#### Tạo vào lưu file
+Tạo file demo.txt có nội dung sau:
 > Hello world
 
 | STT | Lệnh         | Ý nghĩa                                    |     |
@@ -15,3 +16,5 @@
 * Tại bước 2, có thể sử dụng các phím khác để vào insermode
 * Tại bước 4: có thể dùng tổ hợp phím ctrl+c
   
+#### Làm quen với các phím di chuyển
+Sử dụng các phím
