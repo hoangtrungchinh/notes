@@ -17,8 +17,13 @@ Tạo file demo.txt có nội dung sau:
 * Tại bước 4: có thể dùng tổ hợp phím ctrl+c
   
 #### Làm quen với các phím di chuyển
+| STT | Lệnh         | Ý nghĩa                                    |     |
+| --- | ------------ | ------------------------------------------ | --- |
+|1|Trạng thái đầu|<span style="background-color:yellow">T</span>o Sherlock Holmes she is always THE woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br>|
+|2|l|T<span style="background-color:yellow">o</span> Sherlock Holmes she is always THE woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br>|Di chuyển sang phải 1 ký tự
+|3|h|<span style="background-color:yellow">T</span>o Sherlock Holmes she is always THE woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br>|Di chuyển sang trái 1 ký tự
+|4|h|<span style="background-color:yellow">T</span>o Sherlock Holmes she is always THE woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br>|Di chuyển sang trái 1 ký tự
 
-To Sherlock Holmes she is always THE woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br>
 
 Sử dụng các phím h,j,k,l để di chuyển trong game sau
 * Truy cập https://vim-adventures.com/
