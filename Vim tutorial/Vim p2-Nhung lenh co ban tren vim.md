@@ -44,6 +44,10 @@ Sử đụng một trong hai phím
 * **u**
 * **Ctrl + R**
 
+#### Mở  1 file
+* vi filename sử dụng trong terminal
+* 
+
 #### Lưu và thoát
 Để lưu file trong chế độ normal
 * **:w**
