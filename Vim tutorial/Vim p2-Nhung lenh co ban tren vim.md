@@ -2,18 +2,15 @@
 
 #### Di chuyển con trỏ
 Ta di chuyển bằng các phím:
-* **h** (sang trái), 
-* **j** (xuống dưới), 
-* **k** (lên trên) và 
-* **l** (sang phải) 
+* **h**: di chuyển sang trái 
+* **j**: di chuyển xuống dưới 
+* **k**: di chuyển lên trên
+* **l**: di chuyển sang phải 
 * **w**: di chuyển đến đầu từ tiếp theo
 * **b**: di chuyển đến đầu từ trước đó
 * **e**: di chuyển đến cuối từ tiếp theo
 * **ge**: di chuyển đến cuối từ trước đó
 
-
-
-Lưu ý: Trên Vim ta cũng có thể sử dụng các phím mũi tên để điều hướng, nhưng theo kinh nghiệm của các chuyên gia thì sử dụng các phím trên sẽ nhanh hơn
 
 #### Thao tác Xóa
 * **x**: xóa một kí tự tại vị trí con trỏ hiện tại
