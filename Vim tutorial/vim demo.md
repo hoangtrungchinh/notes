@@ -26,6 +26,8 @@ Tạo file demo.txt có nội dung sau:
 |5|k|<span style="background-color:yellow">T</span>o Sherlock Holmes she is always THE woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br>|Di chuyển lên trên 1 ký tự
 |6|10l|To Sherloc<span style="background-color:yellow">k</span> Holmes she is always THE woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br>|Di chuyển sang phải 10 ký tự
 |7|2j|To Sherlock Holmes she is always THE woman. <br> I have seldom heard him mention her under any other name.<br> In his eye<span style="background-color:yellow">s</span> she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br>|Di chuyển xuống dưới 2 dòng
+|8|w|To Sherlock Holmes she is always THE woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes <span style="background-color:yellow">s</span>he eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br>|Di chuyển đến đầu từ tiếp theo
+|9|b|To Sherlock Holmes she is always THE woman. <br> I have seldom heard him mention her under any other name.<br> In his <span style="background-color:yellow">e</span>yes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br>|Di chuyển đến đầu từ trước đó
 
 
 Một vài gợi ý:
