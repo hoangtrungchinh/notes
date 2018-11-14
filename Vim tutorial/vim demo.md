@@ -17,4 +17,12 @@ Tạo file demo.txt có nội dung sau:
 * Tại bước 4: có thể dùng tổ hợp phím ctrl+c
   
 #### Làm quen với các phím di chuyển
-Sử dụng các phím
+Sử dụng các phím h,j,k,l để di chuyển trong game sau
+* Truy cập https://vim-adventures.com/
+* Đặt tay theo vị trí sau và chơi game
+    * Ngón trỏ: **j** - đi xuống
+    * Ngón giữa: **k** - đi lên
+    * Ngón áp út: **l** - qua phải
+* Lưu ý: Sử dụng ngón trỏ đế nhấn phím **h** khi muốn di chuyển qua trái
+
+
