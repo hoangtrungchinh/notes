@@ -66,4 +66,6 @@ Sử đụng một trong hai phím
 * **:qa** dùng để thoát tất cả các file đang mở
 * **:wq** hoặc **:x**  dùng để vừa lưu vừa thoát
 
-#### Lưu và thoát
+#### Tìm kiếm
+* **/noi_dung_tim**: Tìm ở vị trí sau con trỏ
+    * **n**: tìm từ kế tiếp
