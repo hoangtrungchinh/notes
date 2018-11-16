@@ -36,7 +36,7 @@ Tạo file demo.txt có nội dung sau:
 | 15  | gg             | <span style="background-color:yellow">T</span>o Sherlock Holmes she is always the woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br> | Di chuyển đến đầu file          |
 | 16  | shift+4        | To Sherlock Holmes she is always the woman<span style="background-color:yellow">.</span> <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br> | Di chuyển đến cuối dòng         |
 | 17  | 0              | <span style="background-color:yellow">T</span>o Sherlock Holmes she is always the woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br> | Di chuyển đến đầu dòng          |
-| 17  | :3             | To Sherlock Holmes she is always the woman. <br> I have seldom heard him mention her under any other name.<br> <span style="background-color:yellow">I</span>n his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br> | Di chuyển đến dòng số 3          |
+| 17  | :3             | To Sherlock Holmes she is always the woman. <br> I have seldom heard him mention her under any other name.<br> <span style="background-color:yellow">I</span>n his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br> | Di chuyển đến dòng số 3         |
 
 * Trong bước 6 và 7: chữ số đứng trước lệnh di chuyển chỉ số lần thực hiện lệnh di chuyển đó, cách thức này áp dụng cho tất cả các lệnh di chuyển khác, ví dụ: 2) 3} 4{
 * Bước 12 và 13 sẽ thấy rõ khi file có nhiều đoạn
@@ -81,3 +81,11 @@ Lưu ý:
 | yyp     | Delete more than one word <br> <span style="background-color:yellow">D</span>elete more than one word | Nhân đôi dòng hiện tại              |
 | d/one   | Delete more than one word<br> <span style="background-color:yellow">o</span>ne word                   | Xóa từ vị trí con trỏ đên chữ "one" |
 | d)      | Delete more than one word<br> <span style="background-color:yellow">_</span>                          | Xóa từ vị trí con trỏ đên hết câu   |
+
+#### Thao tác sao chép
+
+| 1       | 2                                                                    |                         |
+| ------- | -------------------------------------------------------------------- | ----------------------- |
+| {start} | <span style="background-color:yellow">C</span>opy more than one word | Vị trí con trỏ hiện tại |
+| yw | <span style="background-color:yellow">C</span>opy more than one word | copy một từ tại vị trí con trỏ (chữ "Copy") |
+| shift+p | Copy<span style="background-color:yellow">_</span>Copy more than one word | Dán vào trước vị trí con trỏ |
