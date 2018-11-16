@@ -65,3 +65,5 @@ Sử đụng một trong hai phím
 * **:q!** dùng để thoát mà không lưu
 * **:qa** dùng để thoát tất cả các file đang mở
 * **:wq** hoặc **:x**  dùng để vừa lưu vừa thoát
+
+#### Lưu và thoát
