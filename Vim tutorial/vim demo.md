@@ -89,3 +89,4 @@ Lưu ý:
 | {start} | <span style="background-color:yellow">C</span>opy more than one word | Vị trí con trỏ hiện tại |
 | yw | <span style="background-color:yellow">C</span>opy more than one word | copy một từ tại vị trí con trỏ (chữ "Copy") |
 | shift+p | Copy<span style="background-color:yellow">_</span>Copy more than one word | Dán vào trước vị trí con trỏ |
+| yyp | Copy Copy more than one word<br> <span style="background-color:yellow">C</span>opy Copy more than one word | Copy và dán 1 dòng |
