@@ -43,10 +43,17 @@ Trong bước 6 và 7, ta thấy có chữ số đứng trước lệnh di chuy�
 >     * Ngón áp út: **l**
 > * Lưu ý: riêng phím **h** chúng ta sử dụng ngón trỏ
 
+#### Tìm kiếm đơn giản
+
 
 | STT | Lệnh           | Ý nghĩa                                                                                                                                                                                                                                                                                               | Giải thích                |
 | --- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
 | 1   | Trạng thái đầu | <span style="background-color:yellow">T</span>o Sherlock Holmes she is always the woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br> |
 | 2   | /the           | To Sherlock Holmes she is always <span style="background-color:yellow">t</span>he woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br> | Tìm vị trí "the" sau con trỏ |
 | 3   | n           | To Sherlock Holmes she is always the woman. <br> I have seldom heard him mention her under any o<span style="background-color:yellow">t</span>her name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br> | Tìm vị trí "the" tiếp theo sau con trỏ |
-| 2   | ?the           | To Sherlock Holmes she is always <span style="background-color:yellow">t</span>he woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br> | Tìm vị trí "the" trước con trỏ |
+| 4   | ?the           | To Sherlock Holmes she is always <span style="background-color:yellow">t</span>he woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br> | Tìm vị trí "the" trước con trỏ |
+| 5   | n           | To Sherlock Holmes she is always the woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates <span style="background-color:yellow">t</span>he whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br> | Tìm vị trí "the" tiếp theo trước con trỏ|
+
+Lưu ý: 
+* Ở bước 5, vì đã tìm hết các từ ở trước con trỏ mà không thấy nên vim sẽ bắt đầu tìm tiếp tục ở cuối file trở lên
+* Ở bước 3, để tìm hiệu quả hơn, người ta sử dụng regular expression kết hợp tìm kiếm (sẽ trình bày sau)
