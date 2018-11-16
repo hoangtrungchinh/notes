@@ -72,3 +72,6 @@ Sử đụng một trong hai phím
 * **?noi_dung_tim**: Tìm ở vị trí truowcs con trỏ
     * **n**: tìm từ trước đó
   
+#### Di chuyển màn hình
+* **ctrl+f**: di chuyển tới 1 màn hình (tương tự page down), con trỏ đặt ở đầu trang
+* **ctrl+b**: quay lại 1 màn hình (tương tự page up), con trỏ đặt ở cuối trang
