@@ -78,4 +78,4 @@ Lưu ý:
 | 3dw     | <span style="background-color:yellow">o</span>ne word                                                 | Xóa 3 ký tự sát con trỏ             |
 | u       | <span style="background-color:yellow">D</span>elete more than one word                                | Bỏ đi thao tác vừa rồi              |
 | yyp     | Delete more than one word <br> <span style="background-color:yellow">D</span>elete more than one word | Nhân đôi dòng hiện tại              |
-| d/one   | <span style="background-color:yellow">o</span>ne word <br> Delete more than one word                  | Xóa từ vị trí con trỏ đên chữ "one" |
+| d/one   | Delete more than one word<br> <span style="background-color:yellow">o</span>ne word                   | Xóa từ vị trí con trỏ đên chữ "one" |
