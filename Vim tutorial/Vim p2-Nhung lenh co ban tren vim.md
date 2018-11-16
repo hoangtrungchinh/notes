@@ -10,6 +10,10 @@ Ta di chuyển bằng các phím:
 * **b**: di chuyển đến đầu từ trước đó
 * **e**: di chuyển đến cuối từ tiếp theo
 * **ge**: di chuyển đến cuối từ trước đó
+* **)**: di chuyển đoạn câu tiếp theo
+* **(**: di chuyển đoạn câu trước đó
+* **}**: di chuyển đến đoạn tiếp theo
+* **{**: di chuyển đến đoạn trước đó
 
 
 #### Thao tác Xóa
