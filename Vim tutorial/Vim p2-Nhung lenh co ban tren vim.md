@@ -69,3 +69,6 @@ Sử đụng một trong hai phím
 #### Tìm kiếm
 * **/noi_dung_tim**: Tìm ở vị trí sau con trỏ
     * **n**: tìm từ kế tiếp
+* **?noi_dung_tim**: Tìm ở vị trí truowcs con trỏ
+    * **n**: tìm từ trước đó
+  
