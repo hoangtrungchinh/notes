@@ -14,6 +14,8 @@ Ta di chuyển bằng các phím:
 * **(**: di chuyển đoạn câu trước đó
 * **}**: di chuyển đến đoạn tiếp theo
 * **{**: di chuyển đến đoạn trước đó
+* **Shift + g**: di chuyển đến cuối file
+* **g**: di chuyển đến đầu file
 
 
 #### Thao tác Xóa
