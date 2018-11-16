@@ -24,9 +24,10 @@ Ta di chuyển bằng các phím:
 * **daw**: *delete a word* - Xóa toàn bộ từ đang chứa con trỏ
 * **db**: xóa từ vị trí con trỏ hiện tại đến đầu từ trước đó
 * **dd**: xóa dòng hiện tại
-* **d$**: xóa từ vị trí con trỏ đến hết dòng hiện tại
 * **d{num}**: xóa số dòng bằng giá trị {num} tính từ dòng hiện tại (VD: xóa 10 dòng thì dùng d10)
 * **d)**: xóa câu hiện tại
+* **d$**: xóa từ vị trí con trỏ đến hết dòng hiện tại
+* **d/tu_can_giu**: xóa từ vị trí con trỏ đến tu_can_giu
 
 #### Thao tác chèn
 Để chèn văn bản thì các phím được sử dụng cũng chính là các phím dùng để chuyển từ chế độ normal vào chế độ insert:
