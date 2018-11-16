@@ -16,7 +16,7 @@ Tạo file demo.txt có nội dung sau:
 * Tại bước 2, có thể sử dụng các phím khác để vào insermode
 * Tại bước 4: có thể dùng tổ hợp phím ctrl+c
   
-#### Làm quen với các phím di chuyển (h j k l)
+#### Làm quen với các phím di chuyển
 | STT | Lệnh         | Ý nghĩa                                    |     |
 | --- | ------------ | ------------------------------------------ | --- |
 |1|Trạng thái đầu|<span style="background-color:yellow">T</span>o Sherlock Holmes she is always THE woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br>|
@@ -33,6 +33,7 @@ Tạo file demo.txt có nội dung sau:
 |12|}|To Sherlock Holmes she is always THE woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler<span style="background-color:yellow">.</span><br>|Di chuyển đến đoạn tiếp đó
 |13|{|<span style="background-color:yellow">T</span>o Sherlock Holmes she is always THE woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br>|Di chuyển đến đoạn trước đó
 
+Trong bước 6 và 7, ta thấy có chữ số đứng trước lệnh di chuyển chỉ số lần thực hiện lệnh di chuyển đó, cách thức này áp dụng cho tất cả các lệnh di chuyển khác, ví dụ: 2) 3} 4{
 
 > Một vài gợi ý:
 > * Truy cập https://vim-adventures.com/
