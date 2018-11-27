@@ -30,22 +30,29 @@
     * **ctrl+f**: di chuyển con trỏ đến đầu trang màn hình tiếp theo (tương tự page down)
     * **ctrl+b**: di chuyển con trỏ đến đầu trang màn hình trước đó (tương tự page up)
 
-
 * Theo đơn vị file
     * **Shift + g**: di chuyển đến cuối file
     * **gg**: di chuyển đến đầu file
 
-
 #### Thao tác Xóa
-* **x**: xóa một kí tự tại vị trí con trỏ hiện tại
-* **dw**: *delete word* - xóa một từ tính từ vị trí con trỏ hiện tại đến vị trí bắt đầu của từ tiếp theo (không bao gồm kí tự đầu tiên của từ tiếp theo và xóa cả các dấu cách)
-* **daw**: *delete a word* - Xóa toàn bộ từ đang chứa con trỏ
-* **db**: xóa từ vị trí con trỏ hiện tại đến đầu từ trước đó
-* **dd**: xóa dòng hiện tại
-* **d{num}**: xóa số dòng bằng giá trị {num} tính từ dòng hiện tại (VD: xóa 10 dòng thì dùng d10)
-* **d)**: xóa câu hiện tại
-* **d$**: xóa từ vị trí con trỏ đến hết dòng hiện tại
-* **d/tu_can_giu**: xóa từ vị trí con trỏ đến tu_can_giu
+* Theo đơn vị ký tự:
+    * **x**: xóa một kí tự tại vị trí con trỏ hiện tại
+
+* Theo đơn vị từ:
+    * **dw**: *delete word* - xóa một từ tính từ vị trí con trỏ hiện tại đến vị trí bắt đầu của từ tiếp theo (không bao gồm kí tự đầu tiên của từ tiếp theo và xóa cả các dấu cách)
+    * **daw**: *delete a word* - Xóa toàn bộ từ đang chứa con trỏ
+    * **db**: xóa từ vị trí con trỏ hiện tại đến đầu từ trước đó
+
+* Theo đơn vị dòng:    
+    * **dd**: xóa dòng hiện tại
+    * **d{num}**: xóa số dòng bằng giá trị {num} tính từ dòng hiện tại (VD: xóa 10 dòng thì dùng d10)
+    * **d$**: xóa từ vị trí con trỏ đến hết dòng hiện tại
+    
+* Theo đơn vị câu:    
+    * **d)**: xóa câu hiện tại
+
+* Theo regular expresion:    
+    * **d/tu_can_giu**: xóa từ vị trí con trỏ đến tu_can_giu
 
 #### Thao tác chèn
 Để chèn văn bản thì các phím được sử dụng cũng chính là các phím dùng để chuyển từ chế độ normal vào chế độ insert:
@@ -56,7 +63,7 @@
 * **A**: con trỏ sẽ ở cuối dòng hiện tại
 * **o**: thêm một dòng bên dưới dòng hiện tại và đặt con trỏ tại dòng này
 * **O**: thêm một dòng bên trên dòng hiện tại và đặt con trỏ tại dòng này
-* 
+
 
 #### Thao tác nhân đôi dòng
 * **yyp**: Nhân đôi dòng hiện tại và chuyển con trỏ xuống dòng phía dưới
