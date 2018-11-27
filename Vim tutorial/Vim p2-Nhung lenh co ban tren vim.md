@@ -55,6 +55,9 @@
     * **d/tu_can_giu**: xóa từ vị trí con trỏ đến tu_can_giu
 
 #### Thao tác chèn
+
+
+#### Thao tác chèn
 Để chèn văn bản thì các phím được sử dụng cũng chính là các phím dùng để chuyển từ chế độ normal vào chế độ insert:
 
 * **i**: con trỏ sẽ ở luôn vị trí hiện tại
@@ -63,7 +66,6 @@
 * **A**: con trỏ sẽ ở cuối dòng hiện tại
 * **o**: thêm một dòng bên dưới dòng hiện tại và đặt con trỏ tại dòng này
 * **O**: thêm một dòng bên trên dòng hiện tại và đặt con trỏ tại dòng này
-
 
 #### Thao tác nhân đôi dòng
 * **yyp**: Nhân đôi dòng hiện tại và chuyển con trỏ xuống dòng phía dưới
