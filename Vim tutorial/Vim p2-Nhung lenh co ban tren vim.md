@@ -15,8 +15,9 @@ Ta di chuyển bằng các phím:
 * **}**: di chuyển đến đoạn tiếp theo
 * **{**: di chuyển đến đoạn trước đó
 * **Shift + g**: di chuyển đến cuối file
-* **g**: di chuyển đến đầu file
-* :<num>
+* **gg**: di chuyển đến đầu file
+* **:{num}**: di chuyển đến dòng thứ num
+* **shift+4**: di chuyển đến cuối dòng
 
 
 #### Thao tác Xóa
@@ -39,6 +40,7 @@ Ta di chuyển bằng các phím:
 * **A**: con trỏ sẽ ở cuối dòng hiện tại
 * **o**: thêm một dòng bên dưới dòng hiện tại và đặt con trỏ tại dòng này
 * **O**: thêm một dòng bên trên dòng hiện tại và đặt con trỏ tại dòng này
+* 
 
 #### Thao tác nhân đôi dòng
 * **yyp**: Nhân đôi dòng hiện tại và chuyển con trỏ xuống dòng phía dưới
