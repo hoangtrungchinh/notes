@@ -16,6 +16,7 @@ Ta di chuyển bằng các phím:
 * **{**: di chuyển đến đoạn trước đó
 * **Shift + g**: di chuyển đến cuối file
 * **g**: di chuyển đến đầu file
+* :<num>
 
 
 #### Thao tác Xóa
