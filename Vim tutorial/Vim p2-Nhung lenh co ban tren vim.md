@@ -95,3 +95,5 @@ Sử đụng một trong hai phím
 * **?noi_dung_tim**: Tìm ở vị trí trước con trỏ
     * **n**: tìm từ trước đó
 * **\***: Tìm từ kế tiếp nằm ở vị trí con trỏ hiện tại 
+* **#**: Tìm từ trước đó nằm ở vị trí con trỏ hiện tại 
+ 
