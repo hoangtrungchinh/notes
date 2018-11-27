@@ -94,3 +94,4 @@ Sử đụng một trong hai phím
     * **n**: tìm từ kế tiếp
 * **?noi_dung_tim**: Tìm ở vị trí trước con trỏ
     * **n**: tìm từ trước đó
+* **f**: 
