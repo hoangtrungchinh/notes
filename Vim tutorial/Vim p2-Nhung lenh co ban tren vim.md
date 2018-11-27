@@ -121,3 +121,6 @@ Sử đụng một trong hai phím
 * **#**: Tìm từ trước đó nằm ở vị trí con trỏ hiện tại 
  
 #### Thao tác chọn (bôi đen)
+* **shift+v**: chọn 1 dòng
+* **Ctr+v**: chọn 1 block (dùng các phím di chuyển để  chọn blog)
+* 
