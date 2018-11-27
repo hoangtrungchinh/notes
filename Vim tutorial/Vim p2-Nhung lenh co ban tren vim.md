@@ -57,6 +57,8 @@
 #### Thao tác sao chép
 * **yw**: Sao chép chữ ở vị trí con trỏ hiện tại
 * **yy**: Sao chép dòng ở vị trí con trỏ hiện tại
+* **y)**: Sao chép từ vị trí con trỏ hiện tại đến hết câu
+* **y}**: Sao chép từ vị trí con trỏ hiện tại đến hết đoạn
 
 
 #### Thao tác chèn
