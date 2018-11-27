@@ -26,6 +26,11 @@
     * **}**: di chuyển đến đoạn tiếp theo
     * **{**: di chuyển đến đoạn trước đó
 
+* Theo đơn vị màn hình:
+    * **ctrl+f**: di chuyển con trỏ đến đầu trang màn hình tiếp theo (tương tự page down)
+    * **ctrl+b**: di chuyển con trỏ đến đầu trang màn hình trước đó (tương tự page up)
+
+
 * Theo đơn vị file
     * **Shift + g**: di chuyển đến cuối file
     * **gg**: di chuyển đến đầu file
@@ -89,7 +94,3 @@ Sử đụng một trong hai phím
     * **n**: tìm từ kế tiếp
 * **?noi_dung_tim**: Tìm ở vị trí trước con trỏ
     * **n**: tìm từ trước đó
-  
-#### Di chuyển màn hình
-* **ctrl+f**: di chuyển tới 1 màn hình (tương tự page down), con trỏ đặt ở đầu trang
-* **ctrl+b**: quay lại 1 màn hình (tương tự page up), con trỏ đặt ở cuối trang
