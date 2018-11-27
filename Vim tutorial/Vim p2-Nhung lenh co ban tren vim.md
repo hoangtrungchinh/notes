@@ -54,6 +54,9 @@
 * Theo regular expresion:    
     * **d/tu_can_giu**: xóa từ vị trí con trỏ đến tu_can_giu
 
+* Xóa trong visual mode:    
+    * **shift+d**: Xóa những từ được bôi đen
+
 #### Thao tác sao chép
 * **y**: Sao chép những từ được chọn
 * **yw**: Sao chép chữ ở vị trí con trỏ hiện tại
