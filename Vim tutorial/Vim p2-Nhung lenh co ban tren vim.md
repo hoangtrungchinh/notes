@@ -55,6 +55,7 @@
     * **d/tu_can_giu**: xóa từ vị trí con trỏ đến tu_can_giu
 
 #### Thao tác sao chép
+* **y**: Sao chép những từ được chọn
 * **yw**: Sao chép chữ ở vị trí con trỏ hiện tại
 * **yy**: Sao chép dòng ở vị trí con trỏ hiện tại
 * **y)**: Sao chép từ vị trí con trỏ hiện tại đến hết câu
@@ -119,3 +120,4 @@ Sử đụng một trong hai phím
 * **\***: Tìm từ kế tiếp nằm ở vị trí con trỏ hiện tại 
 * **#**: Tìm từ trước đó nằm ở vị trí con trỏ hiện tại 
  
+#### Thao tác chọn (bôi đen)
