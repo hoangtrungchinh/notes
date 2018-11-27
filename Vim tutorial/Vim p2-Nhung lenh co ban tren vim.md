@@ -65,7 +65,10 @@
 
 #### Thao tác thay đổi
 Về cơ bản thao tác này thay cho việc bôi đen, xóa, chuyển về insert mode
-* 
+* **cw**: Thay đổi chữ
+* **c)**: Thay đổi câu
+* **c}**: Thay đổi ddo
+* **c/tu_can_giu**: Thay đổi từ vị trí hiện tại đến từ cần giữ
 
 #### Thao tác chèn
 Để chèn văn bản thì các phím được sử dụng cũng chính là các phím dùng để chuyển từ chế độ normal vào chế độ insert:
