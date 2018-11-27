@@ -60,6 +60,12 @@
 * **y)**: Sao chép từ vị trí con trỏ hiện tại đến hết câu
 * **y}**: Sao chép từ vị trí con trỏ hiện tại đến hết đoạn
 
+#### Thao tác dán
+* **p**: Dán các từ trong bộ nhớ đệm
+
+#### Thao tác thay đổi
+Về cơ bản thao tác này thay cho việc bôi đen, xóa, chuyển về insert mode
+* 
 
 #### Thao tác chèn
 Để chèn văn bản thì các phím được sử dụng cũng chính là các phím dùng để chuyển từ chế độ normal vào chế độ insert:
