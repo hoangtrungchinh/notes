@@ -7,28 +7,28 @@
     * **k**: di chuyển lên trên
     * **l**: di chuyển sang phải 
 
-Theo đơn vị từ:
+* Theo đơn vị từ:
     * **w**: di chuyển đến đầu từ tiếp theo
     * **b**: di chuyển đến đầu từ trước đó
     * **e**: di chuyển đến cuối từ tiếp theo
     * **ge**: di chuyển đến cuối từ trước đó
 
-Theo đơn vị câu:
+* Theo đơn vị câu:
     * **(**: di chuyển đoạn câu trước đó
     * **)**: di chuyển đoạn câu tiếp theo
 
-Theo đơn vị dòng:
-* **shift+4**: di chuyển đến cuối dòng
-* **0**: di chuyển đến đầu dòng
-* **:{num}**: di chuyển đến dòng thứ num
+* Theo đơn vị dòng:
+    * **shift+4**: di chuyển đến cuối dòng
+    * **0**: di chuyển đến đầu dòng
+    * **:{num}**: di chuyển đến dòng thứ num
 
-Theo đơn vị đoạn:
-* **}**: di chuyển đến đoạn tiếp theo
-* **{**: di chuyển đến đoạn trước đó
+* Theo đơn vị đoạn:
+    * **}**: di chuyển đến đoạn tiếp theo
+    * **{**: di chuyển đến đoạn trước đó
 
-Theo đơn vị file
-* **Shift + g**: di chuyển đến cuối file
-* **gg**: di chuyển đến đầu file
+* Theo đơn vị file
+    * **Shift + g**: di chuyển đến cuối file
+    * **gg**: di chuyển đến đầu file
 
 
 #### Thao tác Xóa
