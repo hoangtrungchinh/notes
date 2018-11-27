@@ -54,7 +54,9 @@
 * Theo regular expresion:    
     * **d/tu_can_giu**: xóa từ vị trí con trỏ đến tu_can_giu
 
-#### Thao tác chèn
+#### Thao tác sao chép
+* **yw**: Sao chép chữ ở vị trí con trỏ hiện tại
+* **yy**: Sao chép dòng ở vị trí con trỏ hiện tại
 
 
 #### Thao tác chèn
