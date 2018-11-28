@@ -52,7 +52,7 @@ Tạo file demo.txt có nội dung sau:
 #### Tìm kiếm đơn giản
 
 
-| STT | Lệnh           | Ý nghĩa                                                                                                                                                                                                                                                                                               | Giải thích                               |
+| STT | LỆNH           | TRẠNG THÁI                                                                                                                                                                                                                                                                                            | GIẢI THÍCH                               |
 | --- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
 | 1   | Trạng thái đầu | <span style="background-color:yellow">T</span>o Sherlock Holmes she is always the woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br> |
 | 2   | /the           | To Sherlock Holmes she is always <span style="background-color:yellow">t</span>he woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br> | Tìm vị trí "the" sau con trỏ             |
@@ -69,24 +69,30 @@ Lưu ý:
 
 #### Thao tác xóa
 
-| 1       | 2                                                                                                     |                                     |
-| ------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| {start} | <span style="background-color:yellow">D</span>elete more than one word                                | Vị trí con trỏ hiện tại             |
-| yyp     | Delete more than one word <br> <span style="background-color:yellow">D</span>elete more than one word | Nhân đôi dòng hiện tại              |
-| dd      | <span style="background-color:yellow">D</span>elete more than one word                                | Xóa dòng hiện tại                   |
-| d2w     | <span style="background-color:yellow">t</span>han one word                                            | Xóa 2 ký tự sát con trỏ             |
-| u       | <span style="background-color:yellow">D</span>elete more than one word                                | Bỏ đi thao tác vừa rồi              |
-| 3dw     | <span style="background-color:yellow">o</span>ne word                                                 | Xóa 3 ký tự sát con trỏ             |
-| u       | <span style="background-color:yellow">D</span>elete more than one word                                | Bỏ đi thao tác vừa rồi              |
-| yyp     | Delete more than one word <br> <span style="background-color:yellow">D</span>elete more than one word | Nhân đôi dòng hiện tại              |
-| d/one   | Delete more than one word<br> <span style="background-color:yellow">o</span>ne word                   | Xóa từ vị trí con trỏ đên chữ "one" |
-| d)      | Delete more than one word<br> <span style="background-color:yellow">_</span>                          | Xóa từ vị trí con trỏ đên hết câu   |
+| STT | LỆNH    | TRẠNG THÁI                                                                                            | Ý NGHĨA                             |
+| --- | ------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| 1   | {start} | <span style="background-color:yellow">D</span>elete more than one word                                | Vị trí con trỏ hiện tại             |
+| 2   | yyp     | Delete more than one word <br> <span style="background-color:yellow">D</span>elete more than one word | Nhân đôi dòng hiện tại              |
+| 3   | dd      | <span style="background-color:yellow">D</span>elete more than one word                                | Xóa dòng hiện tại                   |
+| 4   | d2w     | <span style="background-color:yellow">t</span>han one word                                            | Xóa 2 ký tự sát con trỏ             |
+| 5   | u       | <span style="background-color:yellow">D</span>elete more than one word                                | Bỏ đi thao tác vừa rồi              |
+| 6   | 3dw     | <span style="background-color:yellow">o</span>ne word                                                 | Xóa 3 ký tự sát con trỏ             |
+| 7   | u       | <span style="background-color:yellow">D</span>elete more than one word                                | Bỏ đi thao tác vừa rồi              |
+| 8   | yyp     | Delete more than one word <br> <span style="background-color:yellow">D</span>elete more than one word | Nhân đôi dòng hiện tại              |
+| 9   | d/one   | Delete more than one word<br> <span style="background-color:yellow">o</span>ne word                   | Xóa từ vị trí con trỏ đên chữ "one" |
+| 10  | d)      | Delete more than one word<br> <span style="background-color:yellow">_</span>                          | Xóa từ vị trí con trỏ đên hết câu   |
 
 #### Thao tác sao chép
 
-| 1       | 2                                                                    |                         |
-| ------- | -------------------------------------------------------------------- | ----------------------- |
-| {start} | <span style="background-color:yellow">C</span>opy more than one word | Vị trí con trỏ hiện tại |
-| yw | <span style="background-color:yellow">C</span>opy more than one word | copy một từ tại vị trí con trỏ (chữ "Copy") |
-| shift+p | Copy<span style="background-color:yellow">_</span>Copy more than one word | Dán vào trước vị trí con trỏ |
-| yyp | Copy Copy more than one word<br> <span style="background-color:yellow">C</span>opy Copy more than one word | Copy và dán 1 dòng |
+| STT | LỆNH    | TRẠNG THÁI                                                                                                 | Ý NGHĨA                                     |
+| --- | ------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| 1   | {start} | <span style="background-color:yellow">C</span>opy more than one word                                       | Vị trí con trỏ hiện tại                     |
+| 2   | yw      | <span style="background-color:yellow">C</span>opy more than one word                                       | copy một từ tại vị trí con trỏ (chữ "Copy") |
+| 3   | shift+p | Copy<span style="background-color:yellow">_</span>Copy more than one word                                  | Dán vào trước vị trí con trỏ                |
+| 4   | yyp     | Copy Copy more than one word<br> <span style="background-color:yellow">C</span>opy Copy more than one word | Copy và dán 1 dòng                          |
+
+#### Thao tác chọn nhiều dòng
+| STT | LỆNH    | TRẠNG THÁI                                                                                                 | Ý NGHĨA                                     |
+| --- | ------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| 1|  a = 0||
+| 2|  b = 100||
