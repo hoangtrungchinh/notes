@@ -92,7 +92,10 @@ Lưu ý:
 | 4   | yyp     | Copy Copy more than one word<br> <span style="background-color:yellow">C</span>opy Copy more than one word | Copy và dán 1 dòng                          |
 
 #### Thao tác chọn nhiều dòng
-| STT | LỆNH    | TRẠNG THÁI                                                                                                 | Ý NGHĨA                                     |
-| --- | ------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
-| 1|  a = 0||
-| 2|  b = 100||
+| STT | LỆNH    | TRẠNG THÁI       | Ý NGHĨA |
+| --- | ------- | ---------------- | ------- |
+| 1   | {start} | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30 | 
+| 2   | ctrl+v | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30 | Vào chế độ visual mode
+| 3   | jj | <span style="background-color:yellow">a</span> = 0<br><span style="background-color:yellow">b</span> = 100<br><span style="background-color:yellow">c</span> = 30 | Chọn 3 dòng
+| 3   | Ctr+i | <span style="background-color:yellow">a</span> = 0<br><span style="background-color:yellow">b</span> = 100<br><span style="background-color:yellow">c</span> = 30 | Chọn 3 dòng
+
