@@ -95,10 +95,10 @@ Lưu ý:
 | STT | LỆNH    | TRẠNG THÁI       | Ý NGHĨA |
 | --- | ------- | ---------------- | ------- |
 | 1   | {start} | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30 | 
-| 2   | ctrl+v | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30 | Vào chế độ visual mode
-| 3   | jj | <span style="background-color:yellow">a</span> = 0<br><span style="background-color:yellow">b</span> = 100<br><span style="background-color:yellow">c</span> = 30 | Chọn 3 dòng
-| 4   | {Shift+i}int{space}{ESC} | <span style="background-color:yellow">i</span>nt a = 0<br>int b = 100<br>int c = 30 | Vào insert mode, chèn ký tự trên nhiều dòng
-| 5   | ctrl+v | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30 | Vào chế độ visual mode
-| 6   | jj | <span style="background-color:yellow">a</span> = 0<br><span style="background-color:yellow">b</span> = 100<br><span style="background-color:yellow">c</span> = 30 | Chọn 3 dòng
-| 7   | $A;{ESC} | <span style="background-color:yellow">a</span> = 0<br><span style="background-color:yellow">b</span> = 100<br><span style="background-color:yellow">c</span> = 30 | Chọn 3 dòng
+| 2   | {ctrl+v}jj | <span style="background-color:yellow">a</span> = 0<br><span style="background-color:yellow">b</span> = 100<br><span style="background-color:yellow">c</span> = 30 | Vào visual mode, Chọn 3 dòng
+| 3   | {Shift+i}int{space}{ESC} | <span style="background-color:yellow">i</span>nt a = 0<br>int b = 100<br>int c = 30 | Vào insert mode, chèn ký tự trên nhiều dòng, về lại normail mode
+| 4   | {ctrl+v}jj$ | <span style="background-color:yellow">int a = 0<br>int b = 100<br>int c = 30</span> | Vào insert mode, chèn ký tự trên nhiều dòng, về lại normail mode
+| 5   | A;{ESC} | <span style="background-color:yellow">i</span>nt a = 0;<br>int b = 100<br>int c = 30 | Vào insert mode, chèn ký tự trên nhiều dòng, về lại normail mode
+
+
 
