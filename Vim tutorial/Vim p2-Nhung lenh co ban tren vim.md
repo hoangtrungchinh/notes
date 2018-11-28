@@ -56,6 +56,7 @@
 
 * Xóa trong visual mode:    
     * **shift+d**: Xóa những từ được bôi đen
+    * **d**: Xóa những từ được bôi đen khi chọn theo block
 
 #### Thao tác sao chép
 * **y**: Sao chép những từ được chọn
