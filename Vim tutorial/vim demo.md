@@ -97,5 +97,5 @@ Lưu ý:
 | 1   | {start} | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30 | 
 | 2   | ctrl+v | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30 | Vào chế độ visual mode
 | 3   | jj | <span style="background-color:yellow">a</span> = 0<br><span style="background-color:yellow">b</span> = 100<br><span style="background-color:yellow">c</span> = 30 | Chọn 3 dòng
-| 4   | <shift+i>int<space><Esc> | <span style="background-color:yellow">a</span> = 0<br><span style="background-color:yellow">b</span> = 100<br><span style="background-color:yellow">c</span> = 30 | Vào chế độ insert mode
+| 4   | {Shift+i}int{space}{ESC} | <span style="background-color:yellow">a</span> = 0<br><span style="background-color:yellow">b</span> = 100<br><span style="background-color:yellow">c</span> = 30 | Vào chế độ insert mode
 
