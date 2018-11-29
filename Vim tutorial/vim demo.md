@@ -136,4 +136,6 @@ Thường sử dụng với 2 mục đích
 | STT | LỆNH       | TRẠNG THÁI                                                                 | Ý NGHĨA                                                                                                              |
 | --- | ---------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | 1   | {start}    | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30    |
-| 2   | ma    | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30    | m viết tắt của mark, lệnh này có nghĩa 
+| 2   | ma    | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30    | m viết tắt của mark, lệnh này có nghĩa là đánh dấu vị trí hiện tại bằng biến a
+| 3   | j       | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30                               | Di chuyển con trỏ xuống dòng phía dưới                          |
+| 4   | mb       | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30                               | lệnh này có nghĩa là đánh dấu vị trí hiện tại bằng biến a
