@@ -104,5 +104,7 @@ Lưu ý:
 #### Thao tác với thanh ghi
 | STT | LỆNH    | TRẠNG THÁI       | Ý NGHĨA |
 | --- | ------- | ---------------- | ------- |
-| 1   | {start}                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                 
-| 2   | "                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                 
+| 1   | {start}                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                             
+| 2   | "ayy                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                             | Sao chép toàn bộ dòng hiện tại vào biến a trong bộ nhớ đệm
+| 3   | j                  | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30                             | Di chuyển con trỏ xuống dòng thứ 2
+| 4   | "byy                  | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30                             | Sao chép toàn bộ dòng hiện tại vào biến b trong bộ nhớ đệm
