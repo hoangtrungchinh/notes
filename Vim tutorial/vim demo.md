@@ -92,8 +92,8 @@ Lưu ý:
 | 4   | yyp     | Copy Copy more than one word<br> <span style="background-color:yellow">C</span>opy Copy more than one word | Copy và dán 1 dòng                          |
 
 #### Thao tác chọn nhiều dòng
-| STT | LỆNH                  | TRẠNG THÁI                                                                                                                                                  | Ý NGHĨA                                                         |
-| --- | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| STT | LỆNH                     | TRẠNG THÁI                                                                                                                                                        | Ý NGHĨA                                                         |
+| --- | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
 | 1   | {start}                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                                                                                           |
 | 2   | {ctrl+v}jj               | <span style="background-color:yellow">a</span> = 0<br><span style="background-color:yellow">b</span> = 100<br><span style="background-color:yellow">c</span> = 30 | Vào visual mode, Chọn 3 dòng                                    |
 | 3   | {Shift+i}int{space}{ESC} | <span style="background-color:yellow">i</span>nt a = 0<br>int b = 100<br>int c = 30                                                                               | Vào insert mode, chèn ký tự trên nhiều dòng, về lại normal mode |
@@ -108,25 +108,32 @@ Thường sử dụng với 2 mục đích
 
 
 
-| STT | LỆNH    | TRẠNG THÁI       | Ý NGHĨA |
-| --- | ------- | ---------------- | ------- |
-| 1   | {start}                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                             
-| 2   | "ayy                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                             | Sao chép toàn bộ dòng hiện tại vào thanh ghi tên a
-| 3   | j                  | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30                             | Di chuyển con trỏ xuống dòng phía dưới
-| 4   | "byy                  | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30                             | Sao chép toàn bộ dòng hiện tại vào thanh ghi tên b
-| 5   | jyy                  | a = 0<br>b = 100<br><span style="background-color:yellow">c</span> = 30                             | di chuyển đến dòng phía dưới và sao chép dòng đó vào bộ nhớ đệm
-| 6   | "ap                 | a = 0<br>b = 100<br>c = 30<br><span style="background-color:yellow">a</span> = 0                             | dán nội dung của thanh ghi tên a
-| 7   | "bp                 | a = 0<br>b = 100<br>c = 30<br>a = 0<br><span style="background-color:yellow">b</span> = 100                             | dán nội dung của thanh ghi tên b từ
-| 8   | "bp                 | a = 0<br>b = 100<br>c = 30<br>a = 0<br>b = 100<br><span style="background-color:yellow">c</span> = 30                             | dán nội dung từ bộ nhớ đệm
+| STT | LỆNH    | TRẠNG THÁI                                                                                            | Ý NGHĨA                                                         |
+| --- | ------- | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| 1   | {start} | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                               |
+| 2   | "ayy    | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                               | Sao chép toàn bộ dòng hiện tại vào thanh ghi tên a              |
+| 3   | j       | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30                               | Di chuyển con trỏ xuống dòng phía dưới                          |
+| 4   | "byy    | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30                               | Sao chép toàn bộ dòng hiện tại vào thanh ghi tên b              |
+| 5   | jyy     | a = 0<br>b = 100<br><span style="background-color:yellow">c</span> = 30                               | di chuyển đến dòng phía dưới và sao chép dòng đó vào bộ nhớ đệm |
+| 6   | "ap     | a = 0<br>b = 100<br>c = 30<br><span style="background-color:yellow">a</span> = 0                      | dán nội dung của thanh ghi tên a                                |
+| 7   | "bp     | a = 0<br>b = 100<br>c = 30<br>a = 0<br><span style="background-color:yellow">b</span> = 100           | dán nội dung của thanh ghi tên b từ                             |
+| 8   | "bp     | a = 0<br>b = 100<br>c = 30<br>a = 0<br>b = 100<br><span style="background-color:yellow">c</span> = 30 | dán nội dung từ bộ nhớ đệm                                      |
 
 
 
 #### Thay thế (replace)
-| STT | LỆNH    | TRẠNG THÁI       | Ý NGHĨA |
-| --- | ------- | ---------------- | ------- |
-| 1   | {start}                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                           
-| 2| :s/=/:=|<span style="background-color:yellow">a</span> := 0<br>b = 100<br>c = 30 | Thay ký tự = đầu tiên từ vị trí con trỏ thành :=             
-| 1   | u                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                           | undo
-| 3| :s/=/:=/g|<span style="background-color:yellow">a</span> := 0<br>b := 100<br>c := 30 | (g viết tắt của global) Thay thế tất cả ký tự = thành :=          
-| 1   | u                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                           | undo
-| 3| :s/=/:=/gc| | (c viết tắt của confirm)  lần lượt duyệt tất cả các ký tự =, nếu đồng ý đổi thành := thì gõ y, không đồng ý thì gõ n 
+| STT | LỆNH       | TRẠNG THÁI                                                                 | Ý NGHĨA                                                                                                              |
+| --- | ---------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| 1   | {start}    | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30    |
+| 2   | :s/=/:=    | <span style="background-color:yellow">a</span> := 0<br>b = 100<br>c = 30   | Thay ký tự = đầu tiên từ vị trí con trỏ thành :=                                                                     |
+| 1   | u          | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30    | undo                                                                                                                 |
+| 3   | :s/=/:=/g  | <span style="background-color:yellow">a</span> := 0<br>b := 100<br>c := 30 | (g viết tắt của global) Thay thế tất cả ký tự = thành :=                                                             |
+| 1   | u          | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30    | undo                                                                                                                 |
+| 3   | :s/=/:=/gc |                                                                            | (c viết tắt của confirm)  lần lượt duyệt tất cả các ký tự =, nếu đồng ý đổi thành := thì gõ y, không đồng ý thì gõ n |
+
+
+#### Đánh dấu (mark)
+| STT | LỆNH       | TRẠNG THÁI                                                                 | Ý NGHĨA                                                                                                              |
+| --- | ---------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| 1   | {start}    | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30    |
+| 2   | ma    | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30    | m viết tắt của mark, lệnh này có nghĩa 
