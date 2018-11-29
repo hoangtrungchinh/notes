@@ -102,6 +102,12 @@ Lưu ý:
 
 
 #### Thao tác với thanh ghi
+Thường sử dụng với 2 mục đích
+1. Tránh việc tình trạng đè lên bộ nhớ mặc định
+2. Tạo ra nhiều vị trí lưu trữ bộ nhớ đệm khác nhau, khi cần dùng bộ nhớ nào chỉ cần gọi bộ nhớ đó
+
+
+
 | STT | LỆNH    | TRẠNG THÁI       | Ý NGHĨA |
 | --- | ------- | ---------------- | ------- |
 | 1   | {start}                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                             
