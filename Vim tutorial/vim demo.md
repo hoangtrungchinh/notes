@@ -118,3 +118,12 @@ Thường sử dụng với 2 mục đích
 | 6   | "ap                 | a = 0<br>b = 100<br>c = 30<br><span style="background-color:yellow">a</span> = 0                             | dán nội dung của thanh ghi tên a
 | 7   | "bp                 | a = 0<br>b = 100<br>c = 30<br>a = 0<br><span style="background-color:yellow">b</span> = 100                             | dán nội dung của thanh ghi tên b từ
 | 8   | "bp                 | a = 0<br>b = 100<br>c = 30<br>a = 0<br>b = 100<br><span style="background-color:yellow">c</span> = 30                             | dán nội dung từ bộ nhớ đệm
+
+
+
+#### Thay thế (replace)
+| STT | LỆNH    | TRẠNG THÁI       | Ý NGHĨA |
+| --- | ------- | ---------------- | ------- |
+| 1   | {start}                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                           
+| 2| :s/=/:=|<span style="background-color:yellow">a</span> := 0<br>b := 100<br>c := 30 | Thay thế tất cả ký tự = thành :=             
+| 3| :s/=/:=/g|<span style="background-color:yellow">a</span> := 0<br>b := 100<br>c := 30 | Thay thế tất cả ký tự = thành :=             
