@@ -103,7 +103,7 @@ Lưu ý:
 
 #### Thao tác với thanh ghi
 Thường sử dụng với 2 mục đích
-1. Tránh việc tình trạng đè lên bộ nhớ mặc định
+1. Tránh việc tình trạng dữ liệu bị đè lên bộ nhớ đệm mặc định
 2. Tạo ra nhiều vị trí lưu trữ bộ nhớ đệm khác nhau, khi cần dùng bộ nhớ nào chỉ cần gọi bộ nhớ đó
 
 
@@ -112,9 +112,9 @@ Thường sử dụng với 2 mục đích
 | --- | ------- | ---------------- | ------- |
 | 1   | {start}                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                             
 | 2   | "ayy                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                             | Sao chép toàn bộ dòng hiện tại vào thanh ghi tên a
-| 3   | j                  | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30                             | Di chuyển con trỏ xuống dòng thứ 2
+| 3   | j                  | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30                             | Di chuyển con trỏ xuống dòng phía dưới
 | 4   | "byy                  | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30                             | Sao chép toàn bộ dòng hiện tại vào thanh ghi tên b
-| 5   | j                  | a = 0<br>b = 100<br><span style="background-color:yellow">c</span> = 30                             | di chuyển đến dòng cuối cùng
-| 5   | {shift+g}                  | a = 0<br>b = 100<br><span style="background-color:yellow">c</span> = 30                             | di chuyển đến dòng cuối cùng
-| 6   | "ap                 | a = 0<br>b = 100<br>c = 30<br><span style="background-color:yellow">a</span> = 0                             | dán nội dung của thanh ghi tên a từ bộ nhớ đệm
-| 7   | "bp                 | a = 0<br>b = 100<br>c = 30<br>a = 0<br><span style="background-color:yellow">b</span> = 100                             | dán nội dung của thanh ghi tên b từ bộ nhớ đệm
+| 5   | jyy                  | a = 0<br>b = 100<br><span style="background-color:yellow">c</span> = 30                             | di chuyển đến dòng phía dưới và sao chép dòng đó vào bộ nhớ đệm
+| 6   | "ap                 | a = 0<br>b = 100<br>c = 30<br><span style="background-color:yellow">a</span> = 0                             | dán nội dung của thanh ghi tên a
+| 7   | "bp                 | a = 0<br>b = 100<br>c = 30<br>a = 0<br><span style="background-color:yellow">b</span> = 100                             | dán nội dung của thanh ghi tên b từ
+| 8   | "bp                 | a = 0<br>b = 100<br>c = 30<br>a = 0<br>b = 100<br><span style="background-color:yellow">c</span> = 30                             | dán nội dung từ bộ nhớ đệm
