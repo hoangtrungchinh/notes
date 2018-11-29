@@ -105,9 +105,9 @@ Lưu ý:
 | STT | LỆNH    | TRẠNG THÁI       | Ý NGHĨA |
 | --- | ------- | ---------------- | ------- |
 | 1   | {start}                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                             
-| 2   | "ayy                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                             | Sao chép toàn bộ dòng hiện tại vào biến a trong bộ nhớ đệm
+| 2   | "ayy                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                             | Sao chép toàn bộ dòng hiện tại vào thanh ghi tên a trong bộ nhớ đệm
 | 3   | j                  | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30                             | Di chuyển con trỏ xuống dòng thứ 2
-| 4   | "byy                  | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30                             | Sao chép toàn bộ dòng hiện tại vào biến b trong bộ nhớ đệm
+| 4   | "byy                  | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30                             | Sao chép toàn bộ dòng hiện tại vào thanh ghi tên b trong bộ nhớ đệm
 | 5   | {shift+g}                  | a = 0<br>b = 100<br><span style="background-color:yellow">c</span> = 30                             | di chuyển đến dòng cuối cùng
-| 6   | "ap                 | a = 0<br>b = 100<br>c = 30<br><span style="background-color:yellow">a</span> = 0                             | dán nội dung của biến a từ bộ nhớ đệm
-| 7   | "bp                 | a = 0<br>b = 100<br>c = 30<br>b = 0<>                             | dán nội dung của biến b từ bộ nhớ đệm
+| 6   | "ap                 | a = 0<br>b = 100<br>c = 30<br><span style="background-color:yellow">a</span> = 0                             | dán nội dung của thanh ghi tên a từ bộ nhớ đệm
+| 7   | "bp                 | a = 0<br>b = 100<br>c = 30<br>a = 0<br><span style="background-color:yellow">b</span> = 100                             | dán nội dung của thanh ghi tên b từ bộ nhớ đệm
