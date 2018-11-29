@@ -127,6 +127,6 @@ Thường sử dụng với 2 mục đích
 | 1   | {start}                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                           
 | 2| :s/=/:=|<span style="background-color:yellow">a</span> := 0<br>b = 100<br>c = 30 | Thay ký tự = đầu tiên từ vị trí con trỏ thành :=             
 | 1   | u                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                           | undo
-| 3| :s/=/:=/g|<span style="background-color:yellow">a</span> := 0<br>b := 100<br>c := 30 | Thay thế tất cả ký tự = thành :=             
+| 3| :s/=/:=/g|<span style="background-color:yellow">a</span> := 0<br>b := 100<br>c := 30 | (g viết tắt của global) Thay thế tất cả ký tự = thành :=          
 | 1   | u                  | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30                           | undo
-| 3| :s/=/:=/gc| | Vim lần lượt duyệt tất cả các ký tự =, nếu đồng ý đổi thành := thì gõ y (yes), không đồng ý thì gõ n (no)
+| 3| :s/=/:=/gc| | (c viết tắt của confirm)  lần lượt duyệt tất cả các ký tự =, nếu đồng ý đổi thành := thì gõ y, không đồng ý thì gõ n 
