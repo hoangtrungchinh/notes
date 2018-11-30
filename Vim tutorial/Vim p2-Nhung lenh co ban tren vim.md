@@ -152,5 +152,7 @@ Sử đụng một trong hai phím
 #### So sánh file trong diffmode
 Vào diffmode:
 * **vi -d filename1 filename2**: so sánh 2 file từ terminal
+* **:vert diffsplit filename2**: so sánh file 1 đã mở sẵn với filename2 theo chiều dọc
+
 Chọn trong diffmode
-* **do**:
+* **do**: sử dụng dòng của filename2 thay thế dòng của filename1 tại vị trí con trỏ hiện tại
