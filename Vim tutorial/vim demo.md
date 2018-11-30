@@ -147,3 +147,7 @@ Thường sử dụng với 2 mục đích
 | 10   | gg    | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30<br>d = 40    | di chuyển con trỏ lên đầu file
 | 11   | `'    | a = 0<br>b = 100<br>c = 30<br><span style="background-color:yellow">d</span> = 40    | di chuyển con trỏ đến vị trí cuối cùng thay đổi
 
+#### Thao tác trên cửa sổ 
+Sau đây là một ngữ cảnh thường thấy: mở file a.txt và che
+
+
