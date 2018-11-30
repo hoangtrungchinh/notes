@@ -104,6 +104,7 @@ Sử đụng một trong hai phím
 #### Mở  1 file
 * **vi filename** sử dụng trong terminal
 * **:e filename** sử dụng trong normal mode
+* **:vs filename** sử dụng trong normal mode
 
 #### Lưu và thoát
 Để lưu file trong chế độ normal
