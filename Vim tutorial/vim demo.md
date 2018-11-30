@@ -133,28 +133,28 @@ Thường sử dụng với 2 mục đích
 
 
 #### Đánh dấu (mark)
-| STT | LỆNH       | TRẠNG THÁI                                                                 | Ý NGHĨA                                                                                                              |
-| --- | ---------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| 1   | {start}    | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30    |
-| 2   | ma    | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30    | m viết tắt của mark, lệnh này có nghĩa là đánh dấu vị trí hiện tại bằng biến a
-| 3   | j       | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30                               | Di chuyển con trỏ xuống dòng phía dưới                          |
-| 4   | mb       | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30                               | lệnh này có nghĩa là đánh dấu vị trí hiện tại bằng biến b
-| 5   | j       | a = 0<br>b = 100<br><span style="background-color:yellow">c</span> = 30                               | Di chuyển con trỏ xuống dòng phía dưới     
-| 6   | 'a    | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30    | di chuyển đến vị trí đánh dấu a
-| 7   | 'b       | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30                               | di chuyển đến vị trí đánh dấu b
-| 8   | {shift+g}       | a = 0<br>b = 100<br><span style="background-color:yellow">c</span> = 30                               | Di chuyển con trỏ xuống cuối file
-| 9   | {shift+g}od{space}={space}40{esc}       | a = 0<br>b = 100<br>c = 30<br>d = 4<span style="background-color:yellow">0</span>                               | Di chuyển con trỏ xuống cuối file, thêm nội dung mới
-| 10   | gg    | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30<br>d = 40    | di chuyển con trỏ lên đầu file
-| 11   | `'    | a = 0<br>b = 100<br>c = 30<br><span style="background-color:yellow">d</span> = 40    | di chuyển con trỏ đến vị trí cuối cùng thay đổi
+| STT | LỆNH                              | TRẠNG THÁI                                                                        | Ý NGHĨA                                                                        |
+| --- | --------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| 1   | {start}                           | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30           |
+| 2   | ma                                | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30           | m viết tắt của mark, lệnh này có nghĩa là đánh dấu vị trí hiện tại bằng biến a |
+| 3   | j                                 | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30           | Di chuyển con trỏ xuống dòng phía dưới                                         |
+| 4   | mb                                | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30           | lệnh này có nghĩa là đánh dấu vị trí hiện tại bằng biến b                      |
+| 5   | j                                 | a = 0<br>b = 100<br><span style="background-color:yellow">c</span> = 30           | Di chuyển con trỏ xuống dòng phía dưới                                         |
+| 6   | 'a                                | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30           | di chuyển đến vị trí đánh dấu a                                                |
+| 7   | 'b                                | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30           | di chuyển đến vị trí đánh dấu b                                                |
+| 8   | {shift+g}                         | a = 0<br>b = 100<br><span style="background-color:yellow">c</span> = 30           | Di chuyển con trỏ xuống cuối file                                              |
+| 9   | {shift+g}od{space}={space}40{esc} | a = 0<br>b = 100<br>c = 30<br>d = 4<span style="background-color:yellow">0</span> | Di chuyển con trỏ xuống cuối file, thêm nội dung mới                           |
+| 10  | gg                                | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30<br>d = 40 | di chuyển con trỏ lên đầu file                                                 |
+| 11  | `'                                | a = 0<br>b = 100<br>c = 30<br><span style="background-color:yellow">d</span> = 40 | di chuyển con trỏ đến vị trí cuối cùng thay đổi                                |
 
 #### Thao tác trên cửa sổ 
 Sau đây là một ngữ cảnh thường thấy: mở file a.txt, sau đó chép dòng đầu tiên của file b.txt vào cuối file a.txt
 
 
-| STT | LỆNH                                                                     | Ý NGHĨA                                                                                                              |
-| --- | ---------- | ----|
-|1| vi a.txt |mở file a.txt từ terminal|
-|2| :new b.txt |mở file b.txt, màn hình bị chia đôi, một nửa phía dưới là nội dung file này|
-|3| {ctrl+ww} |chuyển con trỏ qua cửa sổ  đang mở file b.txt|
-|4| yy{ctrl+wq} |sao chép dòng đầu tiên, đóng cửa sổ file b.txt|
-|5| {Shift+g}p | xuống cuối filt
+| STT | LỆNH        | Ý NGHĨA                                                                     |
+| --- | ----------- | --------------------------------------------------------------------------- |
+| 1   | vi a.txt    | mở file a.txt từ terminal                                                   |
+| 2   | :new b.txt  | mở file b.txt, màn hình bị chia đôi, một nửa phía dưới là nội dung file này |
+| 3   | {ctrl+ww}   | chuyển con trỏ qua cửa sổ  đang mở file b.txt                               |
+| 4   | yy{ctrl+wq} | sao chép dòng đầu tiên, đóng cửa sổ file b.txt                              |
+| 5   | {Shift+g}p  | di chuyển con trỏ xuống cuối file và dán nội dung vừa sao chép              |

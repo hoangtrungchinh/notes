@@ -131,3 +131,5 @@ Sử đụng một trong hai phím
 #### Thao tác trên cửa sổ
 * **:split** hoặc **Ctrl+ws**: Chia cửa sổ theo chiều ngang
 * **Ctrl+ww**: Chuyển qua lại giữa các cửa sổ
+* **Ctrl+ws**: Đóng cửa sổ hiện hành
+* **:new {path}**: Chia cửa sổ và mở một file mới
