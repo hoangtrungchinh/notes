@@ -132,4 +132,9 @@ Sử đụng một trong hai phím
 * **:split** hoặc **Ctrl+ws**: Chia cửa sổ theo chiều ngang
 * **Ctrl+ww**: Chuyển qua lại giữa các cửa sổ
 * **Ctrl+ws**: Đóng cửa sổ hiện hành
-* **:new {path}**: Chia cửa sổ và mở một file mới
+* **:new {filepath}**: Chia cửa sổ và mở một file mới
+
+
+#### Thao tác với file
+* **vi {filepath}**: mở một file mới từ terminal
+* **:e {filepath}**: mở một file mới từ vim
