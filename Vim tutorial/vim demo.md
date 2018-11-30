@@ -144,5 +144,6 @@ Thường sử dụng với 2 mục đích
 | 7   | 'b       | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30                               | di chuyển đến vị trí đánh dấu b
 | 8   | {shift+g}       | a = 0<br>b = 100<br><span style="background-color:yellow">c</span> = 30                               | Di chuyển con trỏ xuống cuối file
 | 9   | {shift+g}od{space}={space}40{esc}       | a = 0<br>b = 100<br>c = 30<br>d = 4<span style="background-color:yellow">0</span>                               | Di chuyển con trỏ xuống cuối file, thêm nội dung mới
-| 10   | ma    | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30    | m viết tắt của mark, lệnh này có nghĩa là đánh dấu vị trí hiện tại bằng biến a
+| 10   | gg    | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30<br>d = 40    | di chuyển con trỏ lên đầu file
+| 11   | `'    | a = 0<br>b = 100<br>c = 30<br><span style="background-color:yellow">d</span> = 40    | di chuyển con trỏ đến vị trí cuối cùng thay đổi
 
