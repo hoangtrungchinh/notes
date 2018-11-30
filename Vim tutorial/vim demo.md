@@ -36,7 +36,7 @@ Tạo file demo.txt có nội dung sau:
 | 15  | gg             | <span style="background-color:yellow">T</span>o Sherlock Holmes she is always the woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br> | Di chuyển đến đầu file          |
 | 16  | shift+4        | To Sherlock Holmes she is always the woman<span style="background-color:yellow">.</span> <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br> | Di chuyển đến cuối dòng         |
 | 17  | 0              | <span style="background-color:yellow">T</span>o Sherlock Holmes she is always the woman. <br> I have seldom heard him mention her under any other name.<br> In his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br> | Di chuyển đến đầu dòng          |
-| 17  | :3             | To Sherlock Holmes she is always the woman. <br> I have seldom heard him mention her under any other name.<br> <span style="background-color:yellow">I</span>n his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br> | Di chuyển đến dòng số 3         |
+| 18  | :3             | To Sherlock Holmes she is always the woman. <br> I have seldom heard him mention her under any other name.<br> <span style="background-color:yellow">I</span>n his eyes she eclipses and predominates the whole of her sex.<br> It was not that he felt any emotion akin to love for Irene Adler.<br> | Di chuyển đến dòng số 3         |
 
 * Trong bước 6 và 7: chữ số đứng trước lệnh di chuyển chỉ số lần thực hiện lệnh di chuyển đó, cách thức này áp dụng cho tất cả các lệnh di chuyển khác, ví dụ: 2) 3} 4{
 * Bước 12 và 13 sẽ thấy rõ khi file có nhiều đoạn
@@ -126,10 +126,10 @@ Thường sử dụng với 2 mục đích
 | --- | ---------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | 1   | {start}    | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30    |
 | 2   | :s/=/:=    | <span style="background-color:yellow">a</span> := 0<br>b = 100<br>c = 30   | Thay ký tự = đầu tiên từ vị trí con trỏ thành :=                                                                     |
-| 1   | u          | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30    | undo                                                                                                                 |
-| 3   | :s/=/:=/g  | <span style="background-color:yellow">a</span> := 0<br>b := 100<br>c := 30 | (g viết tắt của global) Thay thế tất cả ký tự = thành :=                                                             |
-| 1   | u          | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30    | undo                                                                                                                 |
-| 3   | :s/=/:=/gc |                                                                            | (c viết tắt của confirm)  lần lượt duyệt tất cả các ký tự =, nếu đồng ý đổi thành := thì gõ y, không đồng ý thì gõ n |
+| 3   | u          | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30    | undo                                                                                                                 |
+| 4   | :s/=/:=/g  | <span style="background-color:yellow">a</span> := 0<br>b := 100<br>c := 30 | (g viết tắt của global) Thay thế tất cả ký tự = thành :=                                                             |
+| 5   | u          | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30    | undo                                                                                                                 |
+| 6   | :s/=/:=/gc |                                                                            | (c viết tắt của confirm)  lần lượt duyệt tất cả các ký tự =, nếu đồng ý đổi thành := thì gõ y, không đồng ý thì gõ n |
 
 
 #### Đánh dấu (mark)
@@ -173,11 +173,11 @@ Tình huống: mở file a.txt, sau đó có nhu cầu mở file c.txt tại m�
  Tình huống: mở nhiều file và chuyển qua lại giữa các cửa sổ
 | STT | LỆNH          | Ý NGHĨA                                      |
 | --- | ------------- | -------------------------------------------- |
-| 6   | vi a.txt      | mở file a.txt từ terminal                    |
-| 5   | :e b.txt      | mở file b.txt từ vim                         |
-| 4   | :e c.txt      | mở file c.txt từ vim                         |
-| 3   | :ls           | danh sách các file được mở                   |
-| 2   | :bn           | mở file kế tiếp trong số các file được mở    |
-| 1   | :b {filename} | mở theo tên file (dùng tab để chọn tên file) |
+| 1   | vi a.txt      | mở file a.txt từ terminal                    |
+| 2   | :e b.txt      | mở file b.txt từ vim                         |
+| 3   | :e c.txt      | mở file c.txt từ vim                         |
+| 4   | :ls           | danh sách các file được mở                   |
+| 5   | :bn           | mở file kế tiếp trong số các file được mở    |
+| 6   | :b {filename} | mở theo tên file (dùng tab để chọn tên file) |
 
 
