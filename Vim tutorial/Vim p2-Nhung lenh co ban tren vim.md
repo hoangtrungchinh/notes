@@ -166,4 +166,5 @@ Ví dụ
 
 ### Chèn dữ liệu từ file khác
 * **:r {Filename}**: Chèn toàn bộ nội dung của Filename vào vị trí con trỏ
-* **:r !ls**: chèn toàn bộ danh tên các file trong thư mục hiện tại vào vị trí con trỏ (ls là lệnh trong terminal)
+* **:r !ls**: thực hiện lệnh phía sau dấu ! và chèn kết quả thu được vào vị trí con trỏ hiện tại
+* 
