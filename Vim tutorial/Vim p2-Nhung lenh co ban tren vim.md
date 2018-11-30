@@ -129,5 +129,5 @@ Sử đụng một trong hai phím
 * **Ctr+v**: chọn 1 block (dùng các phím di chuyển để  chọn blog)
 
 #### Thao tác trên cửa sổ
-* **:split**: Chia cửa sổ theo chiều ngang
+* **:split** hoặc **Ctrl+ws**: Chia cửa sổ theo chiều ngang
 * **Ctrl+ww**: Chuyển qua lại giữa các cửa sổ
