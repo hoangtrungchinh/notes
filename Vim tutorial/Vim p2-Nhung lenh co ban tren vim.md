@@ -137,7 +137,7 @@ Sử đụng một trong hai phím
 
 #### Thao tác với file
 * **vi {filepath}**: mở một file mới từ terminal
-* **:e {filepath}**: mở một file mới từ vim
+* **:e .**: mở thư mục và nhấn enter để chọn file cần mở
 * **:e **: mở một file mới từ vim
 * **:bd**: xóa file hiện tại trong buffer, mở lại file đã mở trước đó nếu có
 * 
