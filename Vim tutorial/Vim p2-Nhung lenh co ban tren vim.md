@@ -99,6 +99,7 @@ Về cơ bản thao tác này thay cho việc bôi đen, xóa, chuyển về ins
 
 #### Thao tác phục hồi
 Sử đụng một trong hai phím
+
 * **u**
 * **Ctrl + R**
 
@@ -115,10 +116,12 @@ Sử đụng một trong hai phím
 
 #### Lưu và thoát
 Để lưu file trong chế độ normal
+
 * **:w**
 * **:w filename**
 
 Để thoát file ta dùng:
+
 * **:q**
 * **:q!** dùng để thoát mà không lưu
 * **:qa** dùng để thoát tất cả các file đang mở
@@ -153,15 +156,18 @@ Sử đụng một trong hai phím
 
 #### So sánh file trong diffmode
 Vào diffmode:
+
 * **vi -d filename1 filename2**: so sánh 2 file từ terminal
 * **:vert diffsplit filename2**: so sánh file 1 đã mở sẵn với filename2 theo chiều dọc
 
 Chọn trong diffmode
+
 * **do**: (diffget o => obtain) tại dòng cần so sánh: thay nội dung của file không hiện hành vào file hiện hành
 * **dp**: (diffput) tại dòng cần so sánh: thay nội dung của file hiện hành vào file không hiện hành
 
 #### Mở file dựa từ đường dẫn trong một file khác
 Ví dụ
+
 * **a.txt**: nhấn **gf** (go to file) để mở file
 * **https://www.google.com/**: nhấn **gf** (go to file) để mở link
 * **a.txt:8:26**: nhấn **gF** để mở file và đặt con trỏ tại dòng 8
