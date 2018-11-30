@@ -1,2 +1,0 @@
-## VIM P4-LÀM CHỦ NORMAL MODE
-
