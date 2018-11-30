@@ -136,9 +136,10 @@ Sử đụng một trong hai phím
 * **Ctr+v**: chọn 1 block (dùng các phím di chuyển để  chọn blog)
 
 #### Thao tác trên cửa sổ
-* **:split** hoặc **Ctrl+ws**: Chia cửa sổ theo chiều ngang
+* **:vp** hoặc **Ctrl+ws**: Chia cửa sổ theo chiều ngang
+* **:vs** hoặc **Ctrl+wv**: Chia cửa sổ theo chiều dọc
 * **Ctrl+ww**: Chuyển qua lại giữa các cửa sổ
-* **Ctrl+ws**: Đóng cửa sổ hiện hành
+* **Ctrl+wq**: Đóng cửa sổ hiện hành
 * **:new {filepath}**: Chia cửa sổ và mở một file mới
 
 
