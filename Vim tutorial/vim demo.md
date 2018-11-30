@@ -174,3 +174,5 @@ Tình huống: mở file a.txt, sau đó có nhu cầu mở file c.txt tại m�
 | 1   | vi a.txt      | mở file a.txt từ terminal                                                                 |
 | 1   | :e b.txt      | mở file b.txt từ vim                                                                 |
 | 1   | :e c.txt      | mở file c.txt từ vim                                                                 |
+| 1   | :ls      | danh sách các file được mở                                                                 |
+| 1   | :bn      | mở                                                                  |
