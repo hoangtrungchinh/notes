@@ -106,6 +106,7 @@ Sử đụng một trong hai phím
     * **vi filename** Mở filename
     * **vi filename +3** Mở filename và đặt con trỏ ở đầu dòng 3
     * **vi filename +/abc** Mở filename và đặt con trỏ ở đầu dòng đầu tiên chứa abc
+    * **vi filename +1,2d +wq** Mở filename, xóa dòng 1 và 2, lưu lại 
 * Trong vim
     * **:e filename** Mở filename trong một buffer mới
     * **:vs filename** Mở filename và chia dọc cửa sổ
