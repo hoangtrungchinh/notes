@@ -127,4 +127,7 @@ Sử đụng một trong hai phím
 #### Thao tác chọn (bôi đen)
 * **shift+v**: chọn 1 dòng
 * **Ctr+v**: chọn 1 block (dùng các phím di chuyển để  chọn blog)
-* 
+
+#### Thao tác trên cửa sổ
+* **:split**: Chia cửa sổ theo chiều ngang
+* **Ctrl+ww**: Chuyển qua lại giữa các cửa sổ
