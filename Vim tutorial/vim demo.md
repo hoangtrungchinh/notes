@@ -155,4 +155,6 @@ Sau đây là một ngữ cảnh thường thấy: mở file a.txt, sau đó ch�
 | --- | ---------- | ----|
 |1| vi a.txt |mở file a.txt từ terminal|
 |2| :new b.txt |mở file b.txt, màn hình bị chia đôi, một nửa phía dưới là nội dung file này|
-|3| {ctrl+ww} |chuyển con trỏ qua cửa sổ file txt|
+|3| {ctrl+ww} |chuyển con trỏ qua cửa sổ  đang mở file b.txt|
+|4| yy{ctrl+wq} |sao chép dòng đầu tiên, đóng cửa sổ file b.txt|
+|5| {Shift+g}p | xuống cuối filt
