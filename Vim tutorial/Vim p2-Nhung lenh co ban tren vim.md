@@ -70,6 +70,7 @@
 
 #### Thao tác thay đổi
 Về cơ bản thao tác này thay cho việc bôi đen, xóa, chuyển về insert mode
+
 * **cw**: Thay đổi từ vị trí hiện tại hết hết chữ
 * **c)**: Thay đổi từ vị trí hiện tại hết hết câu
 * **c}**: Thay đổi từ vị trí hiện tại hết hết đoạn
