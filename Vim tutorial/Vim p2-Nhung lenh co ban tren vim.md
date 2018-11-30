@@ -102,9 +102,14 @@ Sử đụng một trong hai phím
 * **Ctrl + R**
 
 #### Mở  1 file
-* **vi filename** sử dụng trong terminal
-* **:e filename** sử dụng trong normal mode
-* **:vs filename** sử dụng trong normal mode
+* Trong terminal
+    * **vi filename** Mở filename
+    * **vi filename +3** Mở filename và đặt con trỏ ở đầu dòng 3
+    * **vi filename +/abc** Mở filename và đặt con trỏ ở đầu dòng đầu tiên chứa abc
+* Trong vim
+    * **:e filename** Mở filename trong một buffer mới
+    * **:vs filename** Mở filename và chia dọc cửa sổ
+    * **:sp filename** Mở filename và chia ngang cửa sổ
 
 #### Lưu và thoát
 Để lưu file trong chế độ normal
