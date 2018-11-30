@@ -167,4 +167,3 @@ Ví dụ
 ### Chèn dữ liệu từ file khác
 * **:r {Filename}**: Chèn toàn bộ nội dung của Filename vào vị trí con trỏ
 * **:r !ls**: thực hiện lệnh phía sau dấu ! và chèn kết quả thu được vào vị trí con trỏ hiện tại
-* 
