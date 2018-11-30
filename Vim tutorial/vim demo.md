@@ -142,3 +142,6 @@ Thường sử dụng với 2 mục đích
 | 5   | j       | a = 0<br>b = 100<br><span style="background-color:yellow">c</span> = 30                               | Di chuyển con trỏ xuống dòng phía dưới     
 | 6   | 'a    | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30    | di chuyển đến vị trí đánh dấu a
 | 7   | 'b       | a = 0<br><span style="background-color:yellow">b</span> = 100<br>c = 30                               | di chuyển đến vị trí đánh dấu b
+| 8   | {shift+g}       | a = 0<br>b = 100<br><span style="background-color:yellow">c</span> = 30                               | Di chuyển con trỏ xuống cuối file
+| 9   | {shift+g}       | a = 0<br>b = 100<br><span style="background-color:yellow">c</span> = 30                               | Di chuyển con trỏ xuống cuối file
+
