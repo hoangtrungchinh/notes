@@ -161,7 +161,8 @@ Tình huống: mở file a.txt, sau đó chép dòng đầu tiên của file b.t
 
 Tình huống: mở file a.txt, sau đó có nhu cầu mở file c.txt tại một thư mục khác để  thao tác, thao tác xong rồi đóng file c.txt rồi trở lại file a.txt
 
-| STT | LỆNH        | Ý NGHĨA                                                                     |
-| --- | ----------- | --------------------------------------------------------------------------- |
-| 1   | vi a.txt    | mở file a.txt từ terminal                                                   |
-|2 | :e b.txt
+| STT | LỆNH     | Ý NGHĨA                                                                                   |
+| --- | -------- | ----------------------------------------------------------------------------------------- |
+| 1   | vi a.txt | mở file a.txt từ terminal                                                                 |
+| 2   | :e .     | mở danh sách các file có trong thư mục, dùng các phím di chuyển để chọn file c.txt cần mở |
+| 3   | :bd      | (buffer delete) thoát file hiện tại, mở lại file trước đó là a.txt                        |
