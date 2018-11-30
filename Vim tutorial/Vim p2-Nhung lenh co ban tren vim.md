@@ -164,4 +164,6 @@ Ví dụ
 * **https://www.google.com/**: nhấn **gf** (go to file) để mở link
 * **a.txt:8:26**: nhấn **gF** để mở file và đặt con trỏ tại dòng 8
 
-### Chenf
+### Chèn dữ liệu từ file khác
+* **:r {Filename}**: Chèn toàn bộ nội dung của Filename vào vị trí con trỏ
+* **:r !ls**: chèn toàn bộ danh tên các file trong thư mục hiện tại vào vị trí con trỏ (ls là lệnh trong terminal)
