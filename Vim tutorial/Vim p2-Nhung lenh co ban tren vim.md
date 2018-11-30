@@ -163,3 +163,5 @@ Ví dụ
 * **a.txt**: nhấn **gf** (go to file) để mở file
 * **https://www.google.com/**: nhấn **gf** (go to file) để mở link
 * **a.txt:8:26**: nhấn **gF** để mở file và đặt con trỏ tại dòng 8
+
+### Chenf
