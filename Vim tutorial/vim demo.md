@@ -150,15 +150,17 @@ Thường sử dụng với 2 mục đích
 #### Thao tác trên cửa sổ  và buffer
 Tình huống: mở file a.txt, sau đó chép dòng đầu tiên của file b.txt vào cuối file a.txt
 
-| STT | LỆNH        | Ý NGHĨA                                                                     |
-| --- | ----------- | --------------------------------------------------------------------------- |
-| 1   | vi a.txt    | mở file a.txt từ terminal                                                   |
-| 2   | :new b.txt  | mở file b.txt, màn hình bị chia đôi, một nửa phía dưới là nội dung file này |
-| 3   | {ctrl+ww}   | chuyển con trỏ qua cửa sổ  đang mở file b.txt                               |
-| 4   | yy{ctrl+wq} | sao chép dòng đầu tiên, đóng cửa sổ file b.txt                              |
-| 5   | {Shift+g}p  | di chuyển con trỏ xuống cuối file và dán nội dung vừa sao chép              |
-| 6   | {Ctrl+ws}   | Chia đôi cửa sổ hiện tại theo chiều ngang                                   |
-| 7   | {Ctrl+wv}   | Chia đôi cửa sổ hiện tại theo chiều dọc                                     |
+| STT | LỆNH           | Ý NGHĨA                                                                     |
+| --- | -------------- | --------------------------------------------------------------------------- |
+| 1   | vi a.txt       | mở file a.txt từ terminal                                                   |
+| 2   | :new b.txt     | mở file b.txt, màn hình bị chia đôi, một nửa phía dưới là nội dung file này |
+| 3   | {ctrl+ww}      | chuyển con trỏ qua cửa sổ  đang mở file b.txt                               |
+| 4   | yy{ctrl+wq}    | sao chép dòng đầu tiên, đóng cửa sổ file b.txt                              |
+| 5   | {Shift+g}p     | di chuyển con trỏ xuống cuối file và dán nội dung vừa sao chép              |
+| 6   | :sp            | Chia đôi cửa sổ hiện tại theo chiều ngang                                   |
+| 6   | :sp {filepath} | Mở filepath và chia đôi cửa sổ hiện tại theo chiều ngang                    |
+| 7   | :vs            | Chia đôi cửa sổ hiện tại theo chiều dọc                                     |
+| 7   | :vs {filepath} | Mở filepath và chia đôi cửa sổ hiện tại theo chiều dọc                      |
 
 Tình huống: mở file a.txt, sau đó có nhu cầu mở file c.txt tại một thư mục khác để  thao tác, thao tác xong rồi đóng file c.txt rồi trở lại file a.txt
 
