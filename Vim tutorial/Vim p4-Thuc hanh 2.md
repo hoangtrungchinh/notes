@@ -79,7 +79,8 @@ Tình huống: mở file a.txt, sau đó có nhu cầu mở file c.txt tại m�
 | 2   | :e .          | mở danh sách các file có trong thư mục, dùng các phím di chuyển để chọn file c.txt cần mở |
 | 3   | /c.txt{Enter} | tìm kiếm và mở file c.txt                                                                 |
 | 4   | :bd           | (buffer delete) thoát file hiện tại, mở lại file trước đó là a.txt                        |
- lưu ý: trong bước 4, trong trường hợp nếu có sửa file c.txt, muốn trở lại file a.txt mà không muốn lưu file c.txt, ta dùng lệnh **:e!** rồi mới dùng **:bd**
+ 
+ lưu ý: trong bước 4, trong trường hợp nếu có sửa file c.txt, muốn trở lại file a.txt mà không muốn lưu file c.txt, ta dùng lệnh **:e!** rồi mới dùng **:bd** 
 
  Tình huống: mở nhiều file và chuyển qua lại giữa các cửa sổ
 | STT | LỆNH          | Ý NGHĨA                                      |
