@@ -157,3 +157,8 @@ Vào diffmode:
 Chọn trong diffmode
 * **do**: (diffget o => obtain) tại dòng cần so sánh: thay nội dung của file không hiện hành vào file hiện hành
 * **dp**: (diffput) tại dòng cần so sánh: thay nội dung của file hiện hành vào file không hiện hành
+
+#### Mở file dựa từ đường dẫn trong một file khác
+Ví dụ
+* **a.txt**: nhấn **gf** (go to file) để mở file
+* 
