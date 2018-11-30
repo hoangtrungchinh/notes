@@ -148,6 +148,11 @@ Thường sử dụng với 2 mục đích
 | 11   | `'    | a = 0<br>b = 100<br>c = 30<br><span style="background-color:yellow">d</span> = 40    | di chuyển con trỏ đến vị trí cuối cùng thay đổi
 
 #### Thao tác trên cửa sổ 
-Sau đây là một ngữ cảnh thường thấy: mở file a.txt và che
+Sau đây là một ngữ cảnh thường thấy: mở file a.txt, sau đó chép dòng đầu tiên của file b.txt vào cuối file a.txt
 
 
+| STT | LỆNH                                                                     | Ý NGHĨA                                                                                                              |
+| --- | ---------- | ----|
+|1| vi a.txt |mở file a.txt từ terminal|
+|2| :new b.txt |mở file b.txt, màn hình bị chia đôi, một nửa phía dưới là nội dung file này|
+|3| {ctrl+ww} |chuyển con trỏ qua cửa sổ file txt|
