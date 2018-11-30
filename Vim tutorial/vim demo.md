@@ -147,9 +147,8 @@ Thường sử dụng với 2 mục đích
 | 10  | gg                                | <span style="background-color:yellow">a</span> = 0<br>b = 100<br>c = 30<br>d = 40 | di chuyển con trỏ lên đầu file                                                 |
 | 11  | `'                                | a = 0<br>b = 100<br>c = 30<br><span style="background-color:yellow">d</span> = 40 | di chuyển con trỏ đến vị trí cuối cùng thay đổi                                |
 
-#### Thao tác trên cửa sổ 
+#### Thao tác trên cửa sổ  và buffer
 Tình huống: mở file a.txt, sau đó chép dòng đầu tiên của file b.txt vào cuối file a.txt
-
 
 | STT | LỆNH        | Ý NGHĨA                                                                     |
 | --- | ----------- | --------------------------------------------------------------------------- |
@@ -168,3 +167,10 @@ Tình huống: mở file a.txt, sau đó có nhu cầu mở file c.txt tại m�
 | 3   | /c.txt{Enter} | tìm kiếm và mở file c.txt                                                                 |
 | 4   | :bd           | (buffer delete) thoát file hiện tại, mở lại file trước đó là a.txt                        |
  lưu ý: trong bước 4, trong trường hợp nếu có sửa file c.txt, muốn trở lại file a.txt mà không muốn lưu file c.txt, ta dùng lệnh **:e!** rồi mới dùng **:bd**
+
+ Tình huống: mở nhiều file và chuyển qua lại giữa các cửa sổ
+| STT | LỆNH          | Ý NGHĨA                                                                                   |
+| --- | ------------- | ----------------------------------------------------------------------------------------- |
+| 1   | vi a.txt      | mở file a.txt từ terminal                                                                 |
+| 1   | :e b.txt      | mở file b.txt từ vim                                                                 |
+| 1   | :e c.txt      | mở file c.txt từ vim                                                                 |
