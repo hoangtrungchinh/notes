@@ -147,4 +147,9 @@ Sử đụng một trong hai phím
 * **:e .**: mở thư mục và nhấn enter để chọn file cần mở
 * **:e**: mở một file mới từ vim
 * **:bd**: xóa file hiện tại trong buffer, mở lại file đã mở trước đó nếu có
+
+
+#### So sánh file trong diffmode
+
+* **vi -d filename1 filename2**: so sánh 2 file từ terminal
 * 
