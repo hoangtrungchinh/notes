@@ -158,7 +158,7 @@ Tình huống: mở file a.txt, sau đó chép dòng đầu tiên của file b.t
 | 4   | yy{ctrl+wq} | sao chép dòng đầu tiên, đóng cửa sổ file b.txt                              |
 | 5   | {Shift+g}p  | di chuyển con trỏ xuống cuối file và dán nội dung vừa sao chép              |
 | 6   | {Ctrl+ws}   | Chia đôi cửa sổ hiện tại theo chiều ngang                                   |
-| 6   | {Ctrl+wv}   | Chia đôi cửa sổ hiện tại theo chiều dọc                                     |
+| 7   | {Ctrl+wv}   | Chia đôi cửa sổ hiện tại theo chiều dọc                                     |
 
 Tình huống: mở file a.txt, sau đó có nhu cầu mở file c.txt tại một thư mục khác để  thao tác, thao tác xong rồi đóng file c.txt rồi trở lại file a.txt
 
@@ -173,11 +173,11 @@ Tình huống: mở file a.txt, sau đó có nhu cầu mở file c.txt tại m�
  Tình huống: mở nhiều file và chuyển qua lại giữa các cửa sổ
 | STT | LỆNH          | Ý NGHĨA                                      |
 | --- | ------------- | -------------------------------------------- |
-| 1   | vi a.txt      | mở file a.txt từ terminal                    |
-| 1   | :e b.txt      | mở file b.txt từ vim                         |
-| 1   | :e c.txt      | mở file c.txt từ vim                         |
-| 1   | :ls           | danh sách các file được mở                   |
-| 1   | :bn           | mở file kế tiếp trong số các file được mở    |
+| 6   | vi a.txt      | mở file a.txt từ terminal                    |
+| 5   | :e b.txt      | mở file b.txt từ vim                         |
+| 4   | :e c.txt      | mở file c.txt từ vim                         |
+| 3   | :ls           | danh sách các file được mở                   |
+| 2   | :bn           | mở file kế tiếp trong số các file được mở    |
 | 1   | :b {filename} | mở theo tên file (dùng tab để chọn tên file) |
 
 
