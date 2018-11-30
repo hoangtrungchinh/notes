@@ -105,17 +105,3 @@ Lưu ý:
 | 7   | j.         | Line two **;** <br>Line three **;**<br>Line four                                             | Xuống hàng và lặp lại các bước trước đó (A; Esc)                                          |
 | 8   | j.         | Line two **;** <br>Line three **;**<br>Line four  **;**                                      | Xuống hàng và lặp lại các bước trước đó (A; Esc)                                          |
 
-
-
-#### VD2: Làm quen với lệnh tìm kiếm
-Đây là ví dụ đơn giản cho việc tìm kiếm và thay thế dùng dấu "."
-
-| STT | LỆNH                  | TRẠNG THÁI                                                                            |                                                                           |
-| --- | --------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| 1   | {start}               | <span style="background-color:yellow">v</span>ar x = "method("+a1+","+a2+")";         | Trạng thái đầu tiên khi vừa mở Vim                                        |
-| 2   | f+                    | var x = "method("<span style="background-color:yellow">+</span>a1+","+a2+")";         | Tìm và di chuyển con trỏ đến vị trị cần tìm (dấu +)                       |
-| 3   | s{space}+{space}<Esc> | var x = "method(" +<span style="background-color:yellow">␣</span>a1+","+a2+")";       | Xóa ký tự vị trí hiện tại <br>Thêm vào ␣+␣ <br> Về lại chế độ normal node |
-| 4   | ;                     | var x = "method(" + a1 <span style="background-color:yellow">+</span>","+a2+")";      | Lặp lại các thao tác search cuối cùng f+                                  |
-| 5   | .                     | var x = "method(" + a1 +<span style="background-color:yellow">␣</span>","+a2+")";     | Lặp lại các thao tác s␣+␣<Esc>                                            |
-| 6   | ;.                    | var x = "method(" + a1 + "," +<span style="background-color:yellow">␣</span>a2+")";   | Lặp lại các thao tác f+s␣+␣<Esc>                                          |
-| 7   | ;.                    | var x = "method(" + a1 + "," + a2 +<span style="background-color:yellow">␣</span>")"; | Lặp lại các thao tác f+s␣+␣<Esc>                                          |
