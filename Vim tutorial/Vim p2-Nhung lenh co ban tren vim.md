@@ -150,6 +150,7 @@ Sử đụng một trong hai phím
 
 
 #### So sánh file trong diffmode
-
+Vào diffmode:
 * **vi -d filename1 filename2**: so sánh 2 file từ terminal
-* 
+Chọn trong diffmode
+* **do**:
